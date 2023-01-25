@@ -24,6 +24,20 @@ body{
     background-color: #111418 !important;
 }
 
+h4{
+    color: white;
+    font-weight: 700;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 17px;
+}
+.fron-develo-text{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+    color: white;
+}
+
 .logo{
    width: 80%;
    height: 145px;
@@ -124,7 +138,8 @@ a:hover {
 	height: 100vh;
 	border: 4px solid red;
 	float: right;
-    background-image: linear-gradient(to right, rgb(138 135 135 / 18%), rgb(84 88 88 / 49%)), url(images/girl.jpg);
+    background-image: 
+    url(images/my.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -266,15 +281,15 @@ color: white;
 .sarvices-row{
     width: 80%;
     float: right;
-    height: 800px;
+    height: 788px;
     position: relative;
-    background-color: #343a40;
-    border: 3px solid rgb(97, 99, 97);
+    background-color:  rgb(52, 58, 64);
+    border: 3px solid yellow;
 }
 
 .services-container1{
     width: 100%;
-    height: 800px;
+    height: 783px;
     border: 2px solid navy;
 }
 
@@ -316,7 +331,7 @@ color: white;
 
 .graphics-design-row{
     width: 80%;
-    height: 600px;
+    height: 554px;
     margin: 0 auto;
     margin-top: 50px;
     border: 2px solid red;
@@ -525,16 +540,17 @@ color: white;
 }
 
 .resume-row{
-    width: 100%;
-    height: 1300px;
+    width: 80%;
+    height: auto;
     float: right; 
+    position: relative;
     background-color: #212529 !important;  
-    border: 2px solid rgb(247, 7, 131);
+    border: 2px solid rgb(43, 247, 7);
 }
 
 .my-education-container{
     width: 85%;
-    height: 1124px;
+    height: 151vh;
     margin: 0 auto;
     margin-top: 80px;
     border: 2px solid maroon;
@@ -948,4 +964,218 @@ color: white;
 }  
 .home_button :hover{
     background-color: gray;
+}
+
+.my-portfolio-row{
+        width: 80%;
+        height: 1000px;
+        float: right;
+        position: relative;
+        border: 3px solid red;
+        background-color: #343a40 !important;
+}
+
+.my-portfolio-container{
+    width: 55%;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 50px;
+border: 2px solid blue;
+}
+
+.portfolio{
+	text-align: center;
+	font-weight: 800;
+	letter-spacing: 1px;
+    opacity: 0.1;
+    font-size: 45px;
+    padding-top: 5px;
+    text-transform: uppercase;
+     color: #6c757d!important;
+    font-size: calc(1.30rem + 5.3vw) !important;
+    
+}
+.my-work{
+	font-size: 35px;
+	text-align: center;
+	margin-top: -90px;
+	font-weight: 700;
+    color: white;
+}
+
+.my-main-box{
+    width: 90%;
+    height: 605px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid hotpink;
+}
+
+/*.my-work-box1{
+    width: 32%;
+    height: 290px;
+    float: left;
+    border: 2px solid white;
+}
+
+.my-work-box1 img{
+    border-radius: 8px;
+}
+
+.my-work-box2{
+    width: 32%;
+    height: 290px;
+    float: left;
+    margin-left: 21px;
+    border: 2px solid white;
+}
+
+.my-work-box2 img{
+    border-radius: 8px;
+}
+
+.my-work-box3{
+    width: 32%;
+    height: 290px;
+    float: left;
+    margin-left: 20px;
+    /*border: 2px solid white;
+}
+
+.my-work-box3 img{
+    border-radius: 8px;
+}
+
+.my-work-box4{
+    width: 32%;
+    height: 290px;
+    float: left;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+
+.my-work-box4 img{
+    border-radius: 8px;
+}
+
+.my-work-box5{
+    width: 32%;
+    height: 290px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid white;
+}
+
+.my-work-box5 img{
+    border-radius: 8px;
+}
+
+.my-work-box6{
+    width: 32%;
+    height: 290px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid white;
+}
+
+.my-work-box6 img{
+    border-radius: 8px;
+}*/
+
+.sk-ex-ed {
+        display: flex;
+        justify-content: left;
+        color: white;
+    
+}
+
+.sk-ex-ed li{
+    list-style: none;
+    text-decoration: none;
+}
+.sk-ex-ed li a{
+    cursor: pointer;
+    padding-left: 8px;
+}
+.details-box{
+    width: 25%;
+    height: 50px;
+    margin: 0 auto;
+     background-color: #20c997;
+     margin-top: 10px;
+     padding-top: 4px;
+    /* padding-left: 20px; */
+}
+
+.all{
+    width: 85%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 2px solid white;
+}
+.image1{
+    width: 32%;
+    height: 320px;
+    float: left;
+    border: 2px solid red;
+}
+
+.image2{
+    width: 32%;
+    height: 320px;
+    float: left;
+    margin-left: 20px;
+    border: 2px solid red;
+}
+
+.image3{
+    width: 32%;
+    height: 320px;
+    float: left;
+    margin-left: 19.2px;
+    border: 2px solid red;
+}
+
+.image4{
+    width: 32%;
+    height: 320px;
+    float: left;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+.image5{
+    width: 32%;
+    height: 320px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+.image6{
+    width: 32%;
+    height: 320px;
+    float: left;
+    margin-left: 19.2px;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+.brand{
+    width: 85%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 2px solid rgb(192, 5, 5);
+}
+
+.photo{
+    width: 85%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 2px solid yellow;
 }

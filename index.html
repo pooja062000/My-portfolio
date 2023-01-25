@@ -11,6 +11,10 @@
    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
       rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+   <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+
+   
 </head>
 <body>
 
@@ -64,9 +68,12 @@
     
     <div class="right-banner-box">
         <div class="container">
-        <h4>I'm<span class="auto-type"></span></h4>
-        </div>
-     </div>
+
+            <h4>welcome</h4>
+            <div class="fron-develo-text">I'm pooja Aggarwal. Frontend Developer</div>
+       </div>
+            </div>
+    
     <!-- about-me-row-->
      <div class="about-me-row">
         <div class="about-me-col1">
@@ -164,8 +171,9 @@
         <div class="design-text6">Lisque persius interesset his et, in quot quidam 
             persequeris vim, ad mea essent possim iriur.</div>
        </div>
-</div>
-</div>
+        </div>
+        </div>
+        </div>
        <!--resume-row-->
 
        <div class="resume-row">
@@ -245,9 +253,135 @@
                 <div class="hello6"></div> 
         </div>
         </div>
-<div class="my-button2">
+            <div class="my-button2">
         <a href="#" class="home_button">Download-CV</a>
         </div>
         </div>
         </div>
+</div>
+        <!--my-portfolio-row-->
+
+      <!-- <div class="my-portfolio-row">
+            <div class="my-portfolio-container">
+                <div class="portfolio">Portfolio</div>
+                 <div class="my-work">My Work</div>
+                </div>
+                 <div class="my-main-box">
+                    <div class="my-work-box1">
+                        <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-1.jpg" width="331px" height="287px">
+                        
+                    </div>
+                
+                 <div class="my-work-box2">
+                    
+                    <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-1.jpg" width="331px" height="287px">
+                 </div>
+                 <div class="my-work-box3">
+                    
+          <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-1.jpg" width="331px" height="287px">
+          </div>
+
+         <div class="my-work-box4">
+         <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-3.jpg" width="331px" height="287px"> 
+
+        </div>
+
+        <div class="my-work-box5">
+            <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-3.jpg" width="331px" height="287px"> 
+   
+           </div>
+
+           <div class="my-work-box6">
+            <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-2.jpg" width="331px" height="287px"> 
+   
+           </div>-->
+
+           <div class="my-portfolio-row">
+            <div class="my-portfolio-container">
+                <div class="portfolio">Portfolio</div>
+                <div class="my-work">My Work</div>
+                </div>
+                
+                <div class="details-box">
+                    <ul class="sk-ex-ed">
+                        <li><a id="c-skill">All</a></li>
+                        <li><a id="c-experience">Brand</a></li>
+                        <li><a id="c-education">Photos</a></li>
+                    </ul>
+                </div>
+                    
+
+                    <div class="all">
+                        <div class="image1">
+                            
+            <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-2.jpg" width="311.8px" height="316.5px">
+               </div>
+
+                <div class="image2"> 
+                    
+            <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-3.jpg" width="311.8px" height="316.5px">
+                 </div>
+
+                 <div class="image3">
+                    
+            <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-3.jpg" width="311.8px" height="316.5px">
+           </div>
+           
+           <div class="image4">
+            
+            <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-1.jpg" width="311.8px" height="316.5px">
+
+           </div>
+           
+           <div class="image5">
+            
+            <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-1.jpg" width="311.8px" height="316.5px">
+
+           </div>
+           
+           <div class="image6">
+            
+            <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-1.jpg" width="311.8px" height="316.5px">
+
+           </div>
+           </div>
+    
+        
+           <div class="brand">
+            
+            <img src="https://harnishdesign.net/demo/html/simone/images/projects/project-1.jpg" width="311.8px" height="316.5px">
+
+           </div>
+           
+           
+           
+           <div class="photo">
+
+           </div>
+           </div>
+           
+
+
+           <script>
+            $(document).ready(function(){
+                $('#c-skill').click(function(){
+                    $('.photo').hide()
+                    $('.brand').hide()
+                    $('.all').show()
+                });
+                $('#c-experience').click(function(){
+                    $('.all').hide()
+                    $('.photo').hide()
+                    $('.brand').show()
+                });
+    
+                $('#c-education').click(function(){
+                    $('.all').hide()
+                    $('.brand').hide()
+                    $('.photo').show()
+                });
+            });
+    
+        </script>
         </body>
+        </html>
