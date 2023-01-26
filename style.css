@@ -12,13 +12,13 @@ body{
     width: 100%;
     float: left;
     height: 5000px;
-    border: 5px solid green;
+    /* border: 5px solid green;*/
 }
 
 .side-box-nav{
 	width: 20%;
 	height: 100vh;
-	border: 5px solid black;
+	/*border: 5px solid black;*/
 	float: left;
 	position: fixed;
     background-color: #111418 !important;
@@ -40,18 +40,45 @@ h4{
 
 .logo{
    width: 80%;
-   height: 145px;
+   height: 160px;
    display: inline-block;
-   margin-top: 110px;
-    border: 2px solid yellow;
+   margin-top: 90px;
+   background-color: white;
+    border: 2px solid;
+    border-radius: 60%;
+    border: 13px solid #343a40;
+
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 40px;  
+    display: inline-block;   
+}
+
+
+.i-poo{
+    width: 80px;
+    color: rgba(250, 250, 250, 0.9);
+    font-size: 20px;
+    margin-top: 15px;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.i-poo:hover{
+    color: #20c997;
 }
 
 .section{
          width: 80%;
         height: 46vh;
-        margin-top: 50px;
+        margin-top: 40px;
         display: inline-block;
-        border: 2px solid red;
+        /*border: 2px solid red;*/
 }
 .menu {
 	
@@ -99,7 +126,7 @@ a:hover {
     height: 46px;
     display: inline-block;
     margin-top: 50px;
-    border: 2px solid palegreen;
+    /*border: 2px solid palegreen;*/
 }
 
 .social {
@@ -109,7 +136,7 @@ a:hover {
     color: rgba(250, 250, 250, 0.9);
 	padding-top: 9px;
 	font-size: 18px;
-	border: solid 1px rgba(255, 255, 255, 0.3);
+	/*border: solid 1px rgba(255, 255, 255, 0.3);*/
 }
 
 .social2 {
@@ -119,7 +146,7 @@ a:hover {
     margin-left: 7px;
     color: rgba(250, 250, 250, 0.9);
 	padding-top: 9px;
-	border: solid 1px rgba(255, 255, 255, 0.3);
+	/*border: solid 1px rgba(255, 255, 255, 0.3);*/
 	font-size: 18px;
 }
 
@@ -131,12 +158,12 @@ a:hover {
     color: rgba(250, 250, 250, 0.9);
 	padding-top: 9px;
 	font-size: 18px;
-	border: solid 1px rgba(255, 255, 255, 0.3);
+	/*border: solid 1px rgba(255, 255, 255, 0.3);*/
 }
 .right-banner-box{
 	width: 80%;
 	height: 100vh;
-	border: 4px solid red;
+	/*border: 4px solid red;*/
 	float: right;
     background-image: 
     url(images/my.jpg);
@@ -149,7 +176,7 @@ a:hover {
     height: 59vh;
     float: right;
     position: relative;
-    border: 4px solid purple;
+    /*border: 4px solid purple;*/
     background-color: #212529
     /* overflow: hidden; */
 }
@@ -158,7 +185,7 @@ a:hover {
     width: 100%;
     height: 57.4vh;
     margin: 0 auto;
-    border: 2px solid rgb(145, 204, 10);
+    /* border: 2px solid rgb(145, 204, 10);*/
 }
 
 /*.main-heading{
@@ -180,7 +207,7 @@ height: 115px;
 text-transform: uppercase!important;
 text-align: center;
 font-weight: 700;
-border: 4px solid rgb(58, 227, 1);
+/*border: 4px solid rgb(58, 227, 1);*/
 letter-spacing: 1px;
 opacity: 0.1;
 margin-top: 50px;
@@ -202,7 +229,7 @@ color: white;
     padding-left: 45px;
     margin-top: 20px;
     float: left;
-    border: 2px solid seagreen;
+    /* border: 2px solid seagreen;*/
 }
 
 .white-text-box1 h1{
@@ -226,16 +253,15 @@ color: white;
     height: 260px;
     float: left;
     margin-top: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red;*/
 }
 
 .my-name{
-	font-size: 17px;
+    font-size: 17px;
 	padding-left: 40px;
 	padding-top: 40px;
 	font-weight: 600;
-    color: #dee3e4 !important;
-    text-decoration: none;
+    color: #dee3e4 !important
 }
 
 .my-email{
@@ -271,7 +297,7 @@ color: white;
     border-radius: 50px;
     margin-top: 40px;
     background-color: #20c997;
-    border: 1px solid #ded5d5;
+    /* border: 1px solid #ded5d5;*/
 }
 .button :hover{
     color: #dee3e4 !important;
@@ -284,13 +310,13 @@ color: white;
     height: 788px;
     position: relative;
     background-color:  rgb(52, 58, 64);
-    border: 3px solid yellow;
+    /* border: 3px solid yellow;*/
 }
 
 .services-container1{
     width: 100%;
     height: 783px;
-    border: 2px solid navy;
+    /*border: 2px solid navy;*/
 }
 
 .services-main-heading{
@@ -313,7 +339,7 @@ color: white;
     text-transform: uppercase!important;
 	text-align: center;
 	font-weight: 700;
-    border: 4px solid rgb(58, 227, 1);
+    /* border: 4px solid rgb(58, 227, 1);*/
 	letter-spacing: 1px;
     opacity: 0.1;
     margin-top: 70px;
@@ -334,7 +360,7 @@ color: white;
     height: 554px;
     margin: 0 auto;
     margin-top: 50px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .graphics-design-box{
@@ -342,14 +368,14 @@ color: white;
     height: 140px;
     margin-top: 50px;
     float: left;
-    border: 2px solid #e509e5f0;
+    /*border: 2px solid #e509e5f0;*/
 }
 
 .logo-box{
     width: 70px;
     height: 70px;
     position: absolute;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .logo-box img{
@@ -374,14 +400,14 @@ color: white;
     margin-top: 50px;
     margin-left: 35px;
     float: left;
-    border: 2px solid #e509e5f0;
+    /*border: 2px solid #e509e5f0;*/
 }
 
 .logo-box2{
     width: 70px;
     height: 70px;
     position: absolute;
-    border: 1px solid darkorange;
+    /* border: 1px solid darkorange;*/
 }
 .logo-box2 img{
     border-radius: 5px;
@@ -406,14 +432,14 @@ color: white;
     height: 140px;
     margin-top: 40px;
     float: left;
-    border: 2px solid #e509e5f0;
+    /*border: 2px solid #e509e5f0;*/
 }
 
 .logo-box3{
     width: 70px;
     height: 70px;
     position: absolute;
-    border: 1px solid darkorange;
+    /*border: 1px solid darkorange;*/
 }
 
 .logo-box3 img{
@@ -440,14 +466,14 @@ color: white;
     margin-top: 40px;
     float: left;
     margin-left: 35px;
-    border: 2px solid #e509e5f0;
+    /* border: 2px solid #e509e5f0;*/
 }
 
 .logo-box4{
     width: 70px;
     height: 70px;
     position: absolute;
-    border: 1px solid darkorange;
+    /*border: 1px solid darkorange;*/
 }
 
 .logo-box4 img{
@@ -473,14 +499,14 @@ color: white;
     height: 140px;
     margin-top: 40px;
     float: left;
-    border: 2px solid #e509e5f0;   
+    /*border: 2px solid #e509e5f0; */  
 }
 
 .logo-box5{
     width: 70px;
     height: 70px;
     position: absolute;
-    border: 1px solid darkorange;
+    /*border: 1px solid darkorange;*/
 }
 
 .logo-box5 img{
@@ -508,14 +534,14 @@ color: white;
     margin-top: 40px;
     float: left;
     margin-left: 35px;
-    border: 2px solid #e509e5f0;   
+    /*border: 2px solid #e509e5f0;*/   
 }
 
 .logo-box6{
     width: 70px;
     height: 70px;
     position: absolute;
-    border: 1px solid darkorange;
+    /*border: 1px solid darkorange;*/
   
 }
 
@@ -545,7 +571,7 @@ color: white;
     float: right; 
     position: relative;
     background-color: #212529 !important;  
-    border: 2px solid rgb(43, 247, 7);
+    /*border: 2px solid rgb(43, 247, 7);*/
 }
 
 .my-education-container{
@@ -553,7 +579,7 @@ color: white;
     height: 151vh;
     margin: 0 auto;
     margin-top: 80px;
-    border: 2px solid maroon;
+    /*border: 2px solid maroon;*/
 }
 
 .resume{
@@ -584,7 +610,7 @@ color: white;
 .my-eduation-heading{
     width: 15%;
     height: 50px;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     color: white;
     margin: 0 auto;
     font-size: 20px;
@@ -599,14 +625,14 @@ color: white;
     height: 435px;
     float: left;
     margin-top: 40px;
-    border: 2px solid wheat;
+    /* border: 2px solid wheat;*/
 }
 
 .computer-sci-box{
     width: 48%;
     height: 200px;
     float: left;
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke;*/
     border-radius: 10px;
     background-color: #111418 !important;
 }
@@ -615,7 +641,7 @@ color: white;
     width: 100px;
     height: 33px;
     margin-top: 10px;
-    border: 1px solid #e90f0f;
+    /*border: 1px solid #e90f0f;*/
     background-color: red;
     border-radius: 7px;
     color: white;
@@ -651,14 +677,14 @@ color: white;
     float: left;
     margin-left: 35px;
     border-radius: 10px;
-    border: 2px solid rgb(227, 212, 212);
+    /*border: 2px solid rgb(227, 212, 212);*/
     background-color: #111418 !important;
 }
 .date1{
     width: 100px;
     height: 33px;
     margin-top: 10px;
-    border: 1px solid #e90f0f;
+    /*border: 1px solid #e90f0f;*/
     background-color: red;
     border-radius: 7px;
     color: white;
@@ -696,7 +722,7 @@ color: white;
     float: left;
     border-radius: 10px;
     margin-top: 31px;
-    border: 2px solid rgb(227, 212, 212);
+    /*border: 2px solid rgb(227, 212, 212);*/
     background-color: #111418 !important;
 }
 
@@ -705,7 +731,7 @@ color: white;
     height: 33px;
     margin-top: 10px;
     border: 1px solid #e90f0f;
-    background-color: red;
+    /* background-color: red;*/
     border-radius: 7px;
     color: white;
     margin-left: 10px;
@@ -742,7 +768,7 @@ color: white;
     margin-left: 35px;
     margin-top: 31px;
     border-radius: 10px;
-    border: 2px solid rgb(227, 212, 212);
+    /*border: 2px solid rgb(227, 212, 212);*/
     background-color: #111418 !important;
 }
 
@@ -750,7 +776,7 @@ color: white;
     width: 100px;
     height: 33px;
     margin-top: 10px;
-    border: 1px solid #e90f0f;
+    /* border: 1px solid #e90f0f;*/
     background-color: red;
     border-radius: 7px;
     color: white;
@@ -786,7 +812,7 @@ color: white;
     height: 388px;
     float: left;
     margin-top: 50px;
-    border: 2px solid wheat;
+    /*border: 2px solid wheat;*/
 }
 
 .my-skills-text{
@@ -800,13 +826,13 @@ color: white;
     height: 210px;
     float: left;
     margin-top: 30px;
-    border: 2px solid rgb(5, 219, 30);
+    /* border: 2px solid rgb(5, 219, 30);*/
     }
 .html-skills-box{
     width: 48%;
     height: 55px;
     float: left;
-    border: 1px solid ghostwhite;
+    /*border: 1px solid ghostwhite;*/
 }
 .html-skills-box h6{
     color: #dee3e4;
@@ -825,7 +851,7 @@ color: white;
 .float-end{
     width: 35px;
     height: 20px;
-    border: 1px solid violet;
+    /* border: 1px solid violet;*/
     color: #dee3e4;
     float: right;
     margin-bottom: -60px;  
@@ -836,7 +862,7 @@ color: white;
     height: 55px;
     float: left;
     margin-left: 38px;
-    border: 1px solid ghostwhite;
+    /*border: 1px solid ghostwhite;*/
 }
 
 .css-skills-box h6{
@@ -859,7 +885,7 @@ color: white;
     height: 55px;
     float: left;
     margin-top: 20px;
-    border: 1px solid ghostwhite;
+    /*border: 1px solid ghostwhite;*/
 }
 
 .java-skills-box h6{
@@ -883,7 +909,7 @@ color: white;
     float: left;
     margin-top: 20px;
     margin-left: 38px;
-    border: 1px solid ghostwhite;
+    /*border: 1px solid ghostwhite;*/
 }
 
 .boostrap-skills-box h6{
@@ -906,7 +932,7 @@ color: white;
     height: 55px;
     float: left;
     margin-top: 20px;
-    border: 1px solid ghostwhite;
+    /*border: 1px solid ghostwhite;*/
 }
 
 .react-skills-box h6{
@@ -930,7 +956,7 @@ color: white;
     float: left;
     margin-top: 20px;
     margin-left: 38px;
-    border: 1px solid ghostwhite;
+    /*border: 1px solid ghostwhite;*/
 }
 
 .jquery-skills-box h6{
@@ -957,7 +983,7 @@ color: white;
     text-align: center;
     padding-top: 12px;
     font-size: 18px;
-    border: 2px solid #6c757d;
+    /*border: 2px solid #6c757d;*/
     color: #6c757d; 
     margin-left: 40%;
        text-decoration: none;
@@ -968,10 +994,10 @@ color: white;
 
 .my-portfolio-row{
         width: 80%;
-        height: 1000px;
+        height: 935px;
         float: right;
         position: relative;
-        border: 3px solid red;
+        /* border: 3px solid red;*/
         background-color: #343a40 !important;
 }
 
@@ -980,7 +1006,7 @@ color: white;
     height: 130px;
     margin: 0 auto;
     margin-top: 50px;
-border: 2px solid blue;
+    /*border: 2px solid blue;*/
 }
 
 .portfolio{
@@ -1008,7 +1034,7 @@ border: 2px solid blue;
     height: 605px;
     margin: 0 auto;
     margin-top: 30px;
-    border: 2px solid hotpink;
+    /* border: 2px solid hotpink;*/
 }
 
 /*.my-work-box1{
@@ -1113,16 +1139,16 @@ border: 2px solid blue;
 
 .all{
     width: 85%;
-    height: 700px;
+    height: 664px;
     margin: 0 auto;
     margin-top: 25px;
-    border: 2px solid white;
+    /* border: 2px solid white;*/
 }
 .image1{
     width: 32%;
     height: 320px;
     float: left;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .image2{
@@ -1130,7 +1156,7 @@ border: 2px solid blue;
     height: 320px;
     float: left;
     margin-left: 20px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .image3{
@@ -1138,7 +1164,7 @@ border: 2px solid blue;
     height: 320px;
     float: left;
     margin-left: 19.2px;
-    border: 2px solid red;
+    /* border: 2px solid red;*/
 }
 
 .image4{
@@ -1146,7 +1172,7 @@ border: 2px solid blue;
     height: 320px;
     float: left;
     margin-top: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red;*/
 }
 
 .image5{
@@ -1155,7 +1181,7 @@ border: 2px solid blue;
     float: left;
     margin-left: 20px;
     margin-top: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red;*/
 }
 
 .image6{
@@ -1164,14 +1190,14 @@ border: 2px solid blue;
     float: left;
     margin-left: 19.2px;
     margin-top: 20px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 .brand{
     width: 85%;
     height: 600px;
     margin: 0 auto;
     margin-top: 25px;
-    border: 2px solid rgb(192, 5, 5);
+    /*border: 2px solid rgb(192, 5, 5);*/
 }
 
 .photo{
@@ -1179,5 +1205,156 @@ border: 2px solid blue;
     height: 600px;
     margin: 0 auto;
     margin-top: 25px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow;*/
+}
+
+.clients-row{
+    width: 80%;
+    height: 75vh;
+    float: right;
+    position: relative;
+    background-color: #212529 !important;
+    overflow: hidden;
+    /*border: 3px solid rgb(236, 11, 127);*/
+}
+
+.testimo-section{
+    width: 60%;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 80px;
+    /*border: 2px solid gray;*/
+}
+
+.testimonial-heading{
+    font-size: 100px;
+    color: #6c757d!important;
+    text-transform: uppercase!important;
+    font-weight: 800;
+    text-align: center;
+    opacity: 0.1;
+    left: 1.5;
+}
+
+.client-spaek-text{
+    color: white;
+}
+
+.client-speak-text{
+	font-size: 37px;
+	text-align: center;
+    margin-top: -89px;
+	font-weight: 700;
+    color: white;
+}
+
+/*.border-client{
+    width: 80px;
+    height: 6px;
+    display: block;
+    border-width: 3px;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    border-color: #20c997;
+}*/
+
+.client-last-container{
+    width: 80%;
+    height: 254px;
+    margin: 0 auto;
+    margin-top: 60px;
+    /* border: 2px solid red;*/
+}
+
+.client-box1{
+    width: 48%;
+    float: left;
+    height: 250px;
+    background-color: #111418 !important;
+    border-radius: 7px;
+    /*border: 2px solid gray;*/
+}
+
+.client-box2{
+    width: 48%;
+    height: 250px;
+    float: left;
+    border-radius: 7px;
+    background-color: #111418 !important;
+    margin-left: 38px;
+    /*border: 2px solid gray;*/
+}
+
+.samll-image-box{
+    width: 69px;
+    height: 69px;
+margin-left: 30px;
+margin-top: 30px;
+    /*border: 2px solid white;*/
+}
+
+.samll-image-box img{
+    border-radius: 50%;
+}
+
+.client-image-text{
+    color: white;
+    padding-left: 110px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -60px;
+}
+
+.client-village{
+    color: rgba(255,255,255,.5)!important;
+    font-weight: 600 !important;
+    line-height: 1.8;
+    font-size: 16px;
+    padding-left: 110px;
+}
+
+.client-paragraph{
+    color: #dee3e4 !important;
+    padding-left: 38px;
+    line-height: 1.8;
+    font-size: 15px;
+    padding-top: 26px;
+}
+
+.samll-image-box2{ 
+    width: 69px;
+    height: 69px;
+margin-left: 30px;
+margin-top: 30px;
+/*border: 2px solid white;*/
+}
+
+.samll-image-box2 img{
+    border-radius: 50%;
+}
+
+.client2-image-text{
+    color: white;
+    padding-left: 110px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -60px;
+}
+
+.client2-village{
+    color: rgba(255,255,255,.5)!important;
+    font-weight: 600 !important;
+    line-height: 1.8;
+    font-size: 16px;
+    padding-left: 110px;
+}
+
+
+.client2-paragraph{
+    color: #dee3e4 !important;
+    padding-left: 38px;
+    line-height: 1.8;
+    font-size: 15px;
+    padding-top: 26px;
 }
