@@ -11,8 +11,8 @@ body{
 .outer{
     width: 100%;
     float: left;
-    height: 5400px;
-     border: 5px solid green;
+   /* height: 5400px;*/
+    /* border: 5px solid green;*/
 }
 
 .side-box-nav{
@@ -213,7 +213,7 @@ letter-spacing: 1px;
 opacity: 0.1;
 margin-top: 50px;
     color: #6c757d!important;
-font-size: calc(1.30rem + 5.3vw) !important;
+font-size: 100px;
 }
 
 .what{
@@ -340,12 +340,12 @@ color: white;
     text-transform: uppercase!important;
 	text-align: center;
 	font-weight: 700;
-    /* border: 4px solid rgb(58, 227, 1);*/
+    border: 4px solid rgb(58, 227, 1);
 	letter-spacing: 1px;
     opacity: 0.1;
     margin-top: 70px;
         color: #6c757d!important;
-    font-size: calc(1.30rem + 6.3vw) !important;
+    font-size: 110px;
 }
 
 .what{
@@ -1361,7 +1361,7 @@ margin-top: 30px;
 }
 .contact-row{
     width: 80%;
-    height: 700px;
+    height: 750px;
     position: relative;
     border: 2px solid red;
     float: right;
@@ -1392,4 +1392,527 @@ margin-top: 30px;
     margin-top: -92px;
 	font-weight: 700;
     color: white;
+}
+
+.cont-last-container{
+    width: 75%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 2px solid gray;
+}
+.address-box{
+width: 48%;
+height: 250px;
+float: left;
+border: 2px solid green;
+}
+
+.address-box2{
+    width: 48%;
+    height: 250px;
+    float: left;
+    margin-left: 35px;
+    border: 2px solid green;
+ }
+
+ .address-box3{
+    width: 48%;
+    height: 200px;
+    float: left;
+    margin-top: 30px;
+    border: 2px solid green;
+ }
+
+ 
+@media screen and (min-width: 320px) and (max-width: 800px) {
+	.side-box-nav{
+		display: none;
+	}
+
+    .logo{
+        display: none;
+     
+     }
+
+     .section{
+        display: none;
+     }
+
+     .shadow1{
+        display: none;
+     }
+
+     .nav{
+        display: none;
+     }
+
+     .social_icon2{
+        display: none;
+     }
+     .right-banner-box{
+        width: 100%;
+        float: left;
+    }
+
+    h4{
+        padding-top: 230px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .fron-develo-text{
+        font-size: 30px;
+    }
+
+    .about-me-row{
+        width: 100%;
+        float: left;
+        height: 120vh;   
+    }
+
+    .about-me-col1{
+        width: 100%;
+    }
+
+    .main-heading{
+        width: 100%;
+        font-size: 50px;
+        font-weight: 800;
+        padding-top: 22px;
+     }
+        
+  .what{
+     font-size: 28px;
+     text-align: center;
+      margin-top: -90px;
+        
+    }
+
+    .white-text-box1{
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 25px;
+        margin-top: 5px;
+    }
+
+    .white-text-box1 p{
+        font-size: 16px;
+    }
+
+    .col-inf-right{
+        
+    width: 100%;
+    margin-top: 100px;
+    }
+
+    .my-name{
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    
+    .my-email{
+        font-size: 15px;
+        padding-left: 25px;
+      
+    }
+    
+    .my-age{
+        font-size: 15px;
+        padding-left: 25px;   
+    }
+
+    .from{
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
+    .button{
+        width: 50%;
+        margin-left: 25px;
+        font-size: 17px;
+        padding-top: 13px;
+        margin-top: 40px;
+    }
+
+    .sarvices-row{
+        width: 100%;
+        height: auto;
+    }
+
+    .services-container1{
+        width: 100%;
+    }
+
+    .services-main-heading{
+          width: 100%;
+          margin-top: 50px;
+          font-size: 55px;
+          padding-top: 25px;
+          font-weight: 800;
+      }
+      
+      .what{
+          font-size: 33px;
+          margin-top: -83px;
+      }
+
+      .graphics-design-row{
+        width: 100%;
+        margin-top: 40px;
+       
+    }
+    
+    .graphics-design-box{
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px; 
+    }
+
+    .web-design-box{
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        margin-left: 0;
+    }
+
+    .design-text2{
+        font-size: 16px;
+    }
+
+    .design-box{
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+
+    .developer-box{
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        margin-left: 0px;
+       
+    }
+
+    .business-box{
+        width: 100%;
+        height: 140px;
+        padding-left: 20px;
+        margin-top: 30px;  
+    }
+
+    .marketing-box{
+        width: 100%;
+        padding-left: 20px;
+        margin-top: 30px;
+        margin-left: 0px;  
+    }
+
+    .resume-row{
+        width: 100%;
+        height: 245vh;
+    }
+
+    .my-education-container{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    /* .resume{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+    }*/
+    
+    .summary{
+     font-size: calc(1.30rem + 9.7vw) !important;
+     font-weight: 900;
+        
+    }
+    .resume{
+        margin-top: -58px;
+        font-weight: 800;
+    }
+
+    .my-eduation-heading{
+        width: 50%;
+        border: 1px solid whit;
+        font-size: 22px;
+        margin-top: 30px;
+        float: left;
+        padding-top: 11px;
+    }
+
+    .bottom-eduation-cont{
+        margin-top: 20px;   
+    }
+
+    .computer-sci-box{
+        width: 100%;
+    }
+
+    .date{
+        margin-left: 20px;
+        padding-top: 6px;
+    }
+    
+    .science-main-text{
+        padding-left: 20px;
+        font-size: 19px;
+    }
+
+    .sci-high-light{
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .sci-heading-text{
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    .bacholar-deg-box{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .date1{
+        margin-left: 20px;
+        padding-top: 6px;
+    }
+
+    .bacholar-main-text{
+        padding-left: 20px;
+        font-size: 19px;
+    }
+    
+    .bach-high-light{
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .bacholar-heading-text{
+        padding-left: 20px;
+        font-size: 17px;
+    }
+    .master-deg-box{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    .date2{
+        margin-left: 20px;
+        padding-top: 6px;
+    }
+   
+
+    .master-main-text{
+        padding-left: 20px;
+        font-size: 19px;
+    }
+    
+    .mast-high-light{
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .master-heading-text{
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    .edu-last-box{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .date3{
+        margin-left: 20px;
+        padding-top: 6px;
+    }
+
+    .master-main-text2{
+        padding-left: 20px;
+        font-size: 19px;
+    }
+    
+    .mast-high-light2{
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .master-heading-text2{
+        padding-left: 20px;
+        font-size: 17px
+    }
+
+    .my-skills-cont{
+        margin-top: 460px;    
+    }
+
+    .my-skills-text{
+        font-size: 25px !important;
+        padding-left: 20px;
+    }
+
+    .html-skills-box{
+        width: 95%;
+        padding-left: 20px;
+    }
+    .skills-box{
+        margin-top: 20px;
+      }
+
+    .html-skills-box h6{
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .hello{
+        margin-top: 32px;
+    }
+    
+    .float-end{
+    font-size: 15px; 
+    }
+
+    .css-skills-box{
+        width: 95%;
+        padding-left: 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .css-skills-box h6{
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .hello2{
+        margin-top: 32px;
+    }
+    .java-skills-box{
+        width: 95%;
+        padding-left: 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .java-skills-box h6{
+        font-size: 17px;
+        font-weight: 700;
+    }
+    
+    .hello3{
+        margin-top: 32px;
+    }
+
+    .boostrap-skills-box{
+        width: 95%;
+        padding-left: 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    
+    .boostrap-skills-box h6{
+        font-size: 17px;
+        font-weight: 700;
+    }
+    
+    .hello4{
+        margin-top: 32px;
+    }
+
+    .react-skills-box{
+        width: 95%;
+        padding-left: 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    
+    .react-skills-box h6{
+        font-size: 17px;
+        font-weight: 700;
+       
+    }
+    
+    .hello5{
+        margin-top: 32px;
+    }
+
+    .jquery-skills-box{
+        width: 95%;
+        padding-left: 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    
+    .jquery-skills-box h6{
+        font-size: 17px;
+        font-weight: 700;
+    }
+    
+    .hello6{
+        margin-top: 32px;
+    }
+
+    .my-button2{
+        display: none;
+    } 
+    
+    .my-portfolio-row{
+        width: 100%;
+        float: left;
+        position: relative;
+}
+
+.my-portfolio-container{
+    width: 100%;
+    margin-top: 50px;  
+}
+
+.portfolio{
+	font-weight: 900;
+    font-size: 45px;
+    padding-top: 5px;
+    font-size: calc(1.30rem + 7.8vw) !important;
+    
+}
+.my-work{
+	font-size: 37px;
+	margin-top: -55px;
+	font-weight: 700;
+}
+
+.my-main-box{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.details-box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.all{
+    width: 60%;
+    float: left;
+    margin-top: 20px;
+}
+
+.image1{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.image2{
+    width: 60%;
+    margin-left: 0px;
+    margin: 0 auto;
+    margin-top: 20px;
+  
+}
+
+
 }
