@@ -344,10 +344,10 @@ a:hover {
 .my-portfolio{
     width: 80%;
     float: right;
-    height: 788px;
+    height: 980px;
     position: relative;
     background-color: rgb(52, 58, 64);
-    /* border: 3px solid yellow;*/
+    /* border: 3px solid yellow;(/
 }
 
 .services-container1 {
@@ -376,7 +376,7 @@ a:hover {
     text-transform: uppercase !important;
     text-align: center;
     font-weight: 700;
-    border: 4px solid rgb(58, 227, 1);
+   /* border: 4px solid rgb(58, 227, 1);*/
     letter-spacing: 1px;
     opacity: 0.1;
     margin-top: 70px;
@@ -394,7 +394,7 @@ a:hover {
 
 .graphics-design-row {
     width: 80%;
-    height: 554px;
+    height: 749px;
     margin: 0 auto;
     margin-top: 50px;
     /*border: 2px solid red;*/
@@ -402,10 +402,10 @@ a:hover {
 
 .graphics-design-box {
     width: 48%;
-    height: 140px;
-    margin-top: 50px;
+    height: 225px;
+    margin-top: 15px;
     float: left;
-    /*border: 2px solid #e509e5f0;*/
+/*border: 2px solid #e509e5f0;*/
 }
 
 .logo-box {
@@ -429,13 +429,14 @@ a:hover {
     font-size: 16px;
     padding-left: 85px;
     padding-top: 9px;
+    line-height: 1.5;
     color: rgba(255, 255, 255, .5) !important;
 }
 
 .web-design-box {
     width: 48%;
-    height: 140px;
-    margin-top: 50px;
+    height: 225px;
+    margin-top: 15px;
     margin-left: 35px;
     float: left;
     /*border: 2px solid #e509e5f0;*/
@@ -464,15 +465,16 @@ a:hover {
     padding-left: 85px;
     padding-top: 9px;
     font-weight: 500;
+    line-height: 1.5;
     color: rgba(255, 255, 255, .5) !important;
 }
 
 .design-box {
     width: 48%;
-    height: 140px;
-    margin-top: 40px;
+    height: 225px;
+    margin-top: 30px;
     float: left;
-    /*border: 2px solid #e509e5f0;*/
+   /*border: 2px solid #e509e5f0;*/
 }
 
 .logo-box3 {
@@ -498,13 +500,14 @@ a:hover {
     padding-left: 85px;
     padding-top: 9px;
     font-weight: 500;
+    line-height: 1.5;
     color: rgba(255, 255, 255, .5) !important;
 }
 
 .developer-box {
     width: 48%;
-    height: 140px;
-    margin-top: 40px;
+    height: 225px;
+    margin-top: 30px;
     float: left;
     margin-left: 35px;
     /* border: 2px solid #e509e5f0;*/
@@ -538,10 +541,10 @@ a:hover {
 
 .business-box {
     width: 48%;
-    height: 140px;
-    margin-top: 40px;
+    height: 225px;
+    margin-top: 30px;
     float: left;
-    /*border: 2px solid #e509e5f0; */
+   /* border: 2px solid #e509e5f0;*/ 
 }
 
 .logo-box5 {
@@ -572,8 +575,8 @@ a:hover {
 
 .marketing-box {
     width: 48%;
-    height: 140px;
-    margin-top: 40px;
+    height: 225px;
+    margin-top: 30px;
     float: left;
     margin-left: 35px;
     /*border: 2px solid #e509e5f0;*/
@@ -1741,7 +1744,10 @@ a:hover {
         margin-top: 30px;
         padding-left: 20px;
     }
-
+    
+    .design-text {
+        font-size: 15px;
+    }
     .web-design-box {
         width: 100%;
         margin-top: 30px;
@@ -1750,7 +1756,8 @@ a:hover {
     }
 
     .design-text2 {
-        font-size: 16px;
+        font-size: 15px;
+        line-height: 1.3;
     }
 
     .design-box {
@@ -1759,12 +1766,22 @@ a:hover {
         padding-left: 20px;
     }
 
+    .design-text3 {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
     .developer-box {
         width: 100%;
         margin-top: 30px;
         padding-left: 20px;
         margin-left: 0px;
+    }
 
+    .design-text4 {
+        font-size: 15px;
+        line-height: 1.4;
+        
     }
 
     .business-box {
