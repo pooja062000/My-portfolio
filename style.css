@@ -344,10 +344,10 @@ a:hover {
 .my-portfolio{
     width: 80%;
     float: right;
-    height: 980px;
+    height: 984px;
     position: relative;
     background-color: rgb(52, 58, 64);
-    /* border: 3px solid yellow;(/
+    /* border: 3px solid yellow;*/
 }
 
 .services-container1 {
@@ -394,7 +394,7 @@ a:hover {
 
 .graphics-design-row {
     width: 80%;
-    height: 749px;
+    height: 754px;
     margin: 0 auto;
     margin-top: 50px;
     /*border: 2px solid red;*/
@@ -2161,7 +2161,7 @@ a:hover {
     }
 
     .cont-last-container {
-        width: 92%;
+        width: 95%;
         margin: 0 auto;
     
     }
