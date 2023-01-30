@@ -1174,7 +1174,7 @@ a:hover {
     height: 664px;
     margin: 0 auto;
     margin-top: 25px;
-    /* border: 2px solid white;*/
+     border: 2px solid white;
 }
 
 .image1 {
@@ -1182,8 +1182,15 @@ a:hover {
     height: 320px;
     float: left;
     /*border: 2px solid red;*/
+    background-image: url('https://harnishdesign.net/demo/html/simone/images/projects/project-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.image1:hover{
+    background-color: #212529;
+}
 
 .image2 {
     width: 32%;
