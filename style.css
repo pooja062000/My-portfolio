@@ -6,7 +6,11 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif;
+    
 }
+
+
+   
 
 .outer {
     width: 100%;
@@ -1609,7 +1613,7 @@ header {
 
 .my {
     color: white;
-    /* width: 70%; */
+     /*width: 70%;*/ 
     float: right;
 }
 
@@ -1658,7 +1662,11 @@ header {
     font-size: 28px;
     text-decoration: none;
     font-weight: 300;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    
 }
 
 #close_menu {
@@ -1669,11 +1677,11 @@ header {
     font-size: 30px;
 }
 
+
 @media screen and (min-width: 320px) and (max-width: 800px) {
     .side-box-nav {
         display: none;
     }
-
     .top-button {
         margin-top: 60px;
         font-size: 16px;
@@ -1709,6 +1717,7 @@ header {
     .right-banner-box {
         width: 100%;
         float: left;
+    
     }
 
     h4 {
@@ -2269,7 +2278,7 @@ header {
     }
 }
 
-@media screen and (min-width:320px) and (max-width:700px) {
+@media screen and (min-width:320px) and (max-width:850px) {
 
     .top-logo {
         width: 80%;

@@ -7,3 +7,4 @@ document.querySelector('#close_menu').addEventListener('click', function(){
     console.log('clicked on close icon')
     document.querySelector('.my_mobile').style.display = 'none'
 })
+
