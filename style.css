@@ -5,10 +5,25 @@
 }
 
 body {
+    background-color: black;
+    min-height: 100vh;
     font-family: 'Nunito Sans', sans-serif;
     
 }
 
+.iam{
+    color: white;
+      font-size: 55px;
+      padding: 15px;
+      font-family: sans-serif;
+  }
+  .text{
+    color: white;
+      border-right: 2px solid white;
+      font-size: 55px;
+      font-family: sans-serif;
+      color: white;
+  }
 
    
 
@@ -1211,6 +1226,15 @@ a:hover {
     /*border: 2px solid red;*/
 }
 
+.wheather-app{
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
+
+
 .image3 {
     width: 32%;
     height: 320px;
@@ -1457,7 +1481,7 @@ a:hover {
 
 .address-box {
     width: 32%;
-    height: 220px;
+    height: 200px;
     float: left;
     /*border: 2px solid green;*/
     background-color: #212529b5;
@@ -1490,17 +1514,10 @@ a:hover {
    
 }
 
-.pin-code{
-    color: #dee3e4 !important;
-    text-align: center;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.6;
 
-}
 .address-box2 {
     width: 32%;
-    height: 220px;
+    height: 200px;
     float: left;
     /*border: 2px solid green;*/
     background-color: #212529b5;
@@ -1536,11 +1553,19 @@ a:hover {
     color: #dee3e4 !important;
     text-align: center;
    font-size: 17px;
+   margin-top: 15px;
+   line-height: 1.6;
+}
+
+.domai1{
+    color: #dee3e4 !important;
+    text-align: center;
+   font-size: 17px;
    line-height: 1.6;
 }
 .address-box3 {
     width: 32%;
-    height: 220px;
+    height: 200px;
     float: left;
     /*border: 2px solid green;*/
     background-color: #212529b5;
@@ -1677,7 +1702,6 @@ header {
     font-size: 30px;
 }
 
-
 @media screen and (min-width: 320px) and (max-width: 800px) {
     .side-box-nav {
         display: none;
@@ -1685,8 +1709,19 @@ header {
     .top-button {
         margin-top: 60px;
         font-size: 16px;
+        background-color: #20c996c8;
+        display: none;
     }
 
+    .iam{
+        color: white;
+          font-size: 36px;
+          padding: 15px;
+          font-family: sans-serif;
+      }
+      .text{
+          font-size: 36px;
+      }
     .top-button:hover {
         background-color: #20c997;
         font-size: 15px;
@@ -1695,7 +1730,6 @@ header {
 
     .logo {
         display: none;
-
     }
 
     .section {
@@ -1717,6 +1751,10 @@ header {
     .right-banner-box {
         width: 100%;
         float: left;
+        background-image: linear-gradient(to right, rgba(42, 42, 42, 0.75), rgba(38, 40, 40, 0.79)),url("images/mobile.webp");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     
     }
 
@@ -2291,8 +2329,5 @@ header {
 
     .my {
         display: none;
-
     }
-
-
 }
