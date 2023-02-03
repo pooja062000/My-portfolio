@@ -1222,8 +1222,8 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(154, 146, 146, 0.067);
@@ -1263,8 +1263,8 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(154, 146, 146, 0.067);
@@ -1291,7 +1291,7 @@ a:hover {
     float: left;
     margin-left: 19.2px;
     position: relative;
- /*border: 2px solid red;*/ 
+/* border: 2px solid red;*/
 
 }
 
@@ -1306,8 +1306,8 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(154, 146, 146, 0.067);
@@ -1336,11 +1336,13 @@ a:hover {
     float: left;
     margin-top: 20px;
     position: relative;
-      border: 2px solid red;
+ /*border: 2px solid red;*/
+
 }
 
 .me4 {
     display: block;
+    border-radius: 5px;
   }
 
   .overlay {
@@ -1349,11 +1351,12 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(154, 146, 146, 0.067);
+    background-color: rgba(154, 146, 146, 0.423);;
+    border-radius: 5px;
   }
 
   .image4:hover .overlay {
@@ -1384,6 +1387,7 @@ a:hover {
 
 .me5 {
     display: block;
+    border-radius: 5px;
   }
 
   .overlay {
@@ -1392,11 +1396,12 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(154, 146, 146, 0.423);
+    background-color: rgba(154, 146, 146, 0.423);;
+    border-radius: 5px;
   }
   
   .image5:hover .overlay {
@@ -1427,6 +1432,7 @@ a:hover {
 
 .image {
     display: block;
+    border-radius: 5px;
   }
 
   .overlay {
@@ -1435,10 +1441,11 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 99%;
     opacity: 0;
     transition: .5s ease;
+    border-radius: 5px;
     background-color: rgba(154, 146, 146, 0.423);
   }
   
@@ -1874,7 +1881,8 @@ header {
     color: white;
     font-size: 30px;
 }
-
+  
+  
 @media screen and (min-width: 320px) and (max-width: 800px) {
     .side-box-nav {
         display: none;
