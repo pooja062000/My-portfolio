@@ -1198,58 +1198,179 @@ a:hover {
 }*/
 
 .all {
-    width: 85%;
+    width: 84.8%;
     height: 664px;
     margin: 0 auto;
     margin-top: 25px;
-     border: 2px solid white;
+    /* border: 2px solid white;*/
 }
 
 .image1 {
     width: 32%;
     height: 320px;
     float: left;
-    /*border: 2px solid red;*/
-    
-   
+    position: relative;
+    /* border: 2px solid red; */
 }
+.me1 {
+    display: block;
+  }
 
-.image1:hover{
-    background-color: #212529;
-}
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(154, 146, 146, 0.067);
+  }
+  .image1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .web-name {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .image2 {
     width: 32%;
     height: 320px;
     float: left;
     margin-left: 20px;
-    /*border: 2px solid red;*/
+    position: relative;
+    /* border: 2px solid red; */
 }
 
-.wheather-app{
+.me2 {
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(154, 146, 146, 0.067);
+  }
+  .image2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .web-name{
     color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: -50px;
-}
-
-
-
+  }
 
 .image3 {
     width: 32%;
     height: 320px;
     float: left;
     margin-left: 19.2px;
-    /* border: 2px solid red;*/
+    position: relative;
+ /*border: 2px solid red;*/ 
+
 }
+
+.me3 {
+    display: block;
+    border-radius: 5px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(154, 146, 146, 0.067);
+    border-radius: 5px;
+    
+  }
+  .image3:hover .overlay {
+    opacity: 1;
+  }
+  
+  .web-name{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .image4 {
     width: 32%;
     height: 320px;
     float: left;
     margin-top: 20px;
-    /* border: 2px solid red;*/
+    position: relative;
+      border: 2px solid red;
 }
+
+.me4 {
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(154, 146, 146, 0.067);
+  }
+
+  .image4:hover .overlay {
+    opacity: 1;
+  }
+  
+  .web-name {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .image5 {
     width: 32%;
@@ -1257,8 +1378,42 @@ a:hover {
     float: left;
     margin-left: 20px;
     margin-top: 20px;
-    /* border: 2px solid red;*/
+    position: relative;
+     /* border: 2px solid red; */
 }
+
+.me5 {
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(154, 146, 146, 0.423);
+  }
+  
+  .image5:hover .overlay {
+    opacity: 1;
+  }
+  
+  .web-name{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .image6 {
     width: 32%;
@@ -1266,24 +1421,42 @@ a:hover {
     float: left;
     margin-left: 19.2px;
     margin-top: 20px;
-    /*border: 2px solid red;*/
+    position: relative;
+   /* border: 2px solid red;*/
 }
 
-.brand {
-    width: 85%;
-    height: 600px;
-    margin: 0 auto;
-    margin-top: 25px;
-    /*border: 2px solid rgb(192, 5, 5);*/
-}
+.image {
+    display: block;
+  }
 
-.photo {
-    width: 85%;
-    height: 600px;
-    margin: 0 auto;
-    margin-top: 25px;
-    /* border: 2px solid yellow;*/
-}
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(154, 146, 146, 0.423);
+  }
+  
+  .image6:hover .overlay {
+    opacity: 1;
+  }
+  
+  .web-name {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .Testimonial {
     width: 80%;
