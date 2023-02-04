@@ -11,18 +11,25 @@ body {
     
 }
 
+/*.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}*/
 .iam{
     color: white;
       font-size: 55px;
       padding: 15px;
+      /*border: 2px solid red;*/
       font-family: sans-serif;
   }
   .text{
     color: white;
-      border-right: 2px solid white;
       font-size: 55px;
       font-family: sans-serif;
       color: white;
+      /*border:  2px solid yellow;*/
   }
 
    
@@ -191,17 +198,21 @@ a:hover {
     /*border: solid 1px rgba(255, 255, 255, 0.3);*/
 }
 
+
+
 .right-banner-box {
     width: 80%;
     height: 100vh;
+    float: left;
     /*border: 4px solid red;*/
     float: right;
     background-image: url(images/my.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .top-logo {
@@ -1863,11 +1874,12 @@ header {
 
     .right-banner-box {
         width: 100%;
-        float: left;
         background-image: linear-gradient(to right, rgba(42, 42, 42, 0.75), rgba(38, 40, 40, 0.79)),url("images/mobile.webp");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        display: flex;
+    flex-direction: column;
     
     }
 
@@ -2442,5 +2454,12 @@ header {
 
     .my {
         display: none;
+    }
+
+    .drop-down{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

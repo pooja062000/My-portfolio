@@ -11,7 +11,7 @@ document.querySelector('#close_menu').addEventListener('click', function(){
 
 /* home text moving code*/
 var typing=new Typed(".text", {
-    strings: [" Frontend Developer", "Freelancer", "Web Designer", "Web Developer"],
+    strings: ["Frontend Developer", "Freelancer", "Web Designer", "Web Developer"],
     typeSpeed: 100,
     backSpeed: 40,
     loop: true,
@@ -19,20 +19,6 @@ var typing=new Typed(".text", {
 
 
   
-var btn = $('#button');
-
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 300) {
-    btn.addClass('show');
-  } else {
-    btn.removeClass('show');
-  }
-});
-
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
-});
 
 
   
