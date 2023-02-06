@@ -1683,6 +1683,7 @@
     }
     .all {
     width: 100%;
+    margin: 0 auto;
     }
     .portfolio-in {
     padding-top: 5px;
@@ -1696,13 +1697,15 @@
     text-align: center;
     }
     .image1{
-    width: 100%;
+    width: 80%;
     margin-left: 0px;
     margin: 0 auto;
+    margin-top: 20px;
     }
     .image2, .image3, .image4, .image5, .image6 {
-    width: 100%;
+    width: 80%;
     margin-left: 0px;
+    margin: 0 auto;
     margin-top: 20px;
     }
     .Testimonial {
