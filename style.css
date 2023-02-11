@@ -1777,7 +1777,7 @@
     margin-left: 0;
     margin-top: 20px;
     }
-    
+}
     @media screen and (min-width:320px) and (max-width:850px) {
     .top-logo {
     width: 80%;
@@ -1789,10 +1789,363 @@
     .my {
     display: none;
     }
+
     .drop-down{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     }
+    
+}
+
+@media screen and (min-width:851px) and (max-width:1100px){
+    .top-button {
+        width: 170px;
+        height: 55px;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 13px;
+        }
+        .logo {
+            display: none;
+            }
+            .section {
+            display: none;
+            }
+            .shadow1 {
+            display: none;
+            }
+            .nav {
+            display: none;
+            }
+            .social_icon2 {
+            display: none;
+            }
+            .side-box-nav {
+                display: none;
+                }
+            .right-banner-box {
+            width: 100%;
+                }
+
+                .about {
+                    width: 100%;
+                    float: left;
+                    height: 60vh;
+                    }
+    .white-text-box1 h1 {
+        font-size: 30px;
+        color: white;
+        }
+        .high-light {
+        color: #20c997;
+        }
+        .white-text-box1 p {
+        font-size: 21px;
     }
+
+    .col-inf-right {
+        width: 30%;
+        height: 275px;
+        float: right;
+        margin-top: 20px;    
+     }
+
+     .main-heading {
+        width: 55%;
+        margin: 0 auto;
+        height: 115px;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 70px;
+        }
+        .what {
+        font-size: 34px;
+        text-align: center;
+        margin-top: -0px;
+        }
+     .my-name {
+        font-size: 20px;
+        padding-left: 25px;
+     }
+
+     .my-email {
+        font-size: 19px;
+        padding-left: 25px;
+      }
+
+      .my-age {
+        font-size: 20px;
+        padding-left: 25px;
+     }
+
+     .from {
+        font-size: 20px;
+        padding-left: 25px;
+    }
+
+ .about-button {
+    width: 65%;
+    margin-left: 0px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.my-portfolio{
+    width: 100%;
+
+    }
+.what {
+    font-size: 34px;
+    margin-top: -100px;
+    }
+  
+    .services-main-heading {
+        font-size: 55px;
+      }
+
+      .skills-box {
+        float: left;
+        }
+      .css-skills-box {
+        float: left;
+        margin-left: 25px;
+      }
+      .boostrap-skills-box {
+        float: right;
+        margin-left: 25px;
+      }
+
+      .jquery-skills-box {
+        float: right;
+        margin-left: 25px;
+     }
+
+     .my-button2 {
+        width: 28%;
+        margin-top: 80px;
+        margin-right: 40px;
+        font-size: 18px;
+        margin-left: 40%;        
+  }
+
+  .my_educ {
+    width: 100%;
+    height: 65vh;
+    }
+  .bottom-eduation-cont {
+    width: 98%;
+    }
+  .computer-sci-box {
+    width: 48%; 
+    height: 230px;
+
+    }
+
+    .master-deg-box {
+        width: 48%;
+        float: right;
+        margin-left: 0px;
+        height: 230px;
+    }
+    .projects{
+     height: 145vh;
+     width: 100%;    
+  }
+
+  .all {
+    width: 65%;
+    margin-top: 25px;
+    margin: 0 auto;
+    }
+
+  .image1{
+    width: 46%;
+  float: left;
+ 
+}
+
+.image5{
+    width: 46%;
+    float: left;
+    margin-left: 0;
+}
+
+.image4 {
+    width: 46%;
+    float: left;
+    margin-left: 50px;
+
+}
+
+.image2 {
+    width: 46%;
+    float: left;
+    margin-left: 50px;
+}
+
+.image3 {
+    width: 46%;
+    float: left;
+    margin-left: 0;
+    margin-top: 20px; 
+}
+
+.image6 {
+    width: 46%;
+    float: left;
+    margin-left: 50px;
+    
+}
+.Testimonial {
+    width: 100%;
+    }
+
+ .testimonial-heading {
+    font-size: 80px;
+    text-align: center;
+   
+    }
+
+    .client-speak-text {
+        font-size: 35px;
+        text-align: center;
+        margin-top: -80px;
+ }
+
+ .client-last-container {
+    width: 97%;
+    height: 300px;
+    }
+    .client-box1 {
+        width: 48%;
+        height: 295px;
+      }
+
+      .client-image-text {
+        font-size: 18px;
+     
+        }
+        .client-village {
+        font-size: 18px;
+        padding-left: 110px;
+        }
+        .client-paragraph {
+        padding-left: 38px;
+        font-size: 17px;
+        padding-top: 26px;
+        }
+        .client-box2 {
+        width: 48%;
+        height: 295px;
+        margin-left: 40px;
+        }
+
+        .client2-village {
+        font-size: 18px;
+        padding-left: 110px;
+          
+      }
+            .client2-paragraph {
+                padding-left: 38px;
+                font-size: 17px;
+                padding-top: 26px;
+            }
+
+            .contact {
+                width: 100%;
+                }
+            .contact {
+                height: auto;
+                }
+            .contact-back-text {
+                font-size: 90px; 
+            
+                }
+                .gat-touch {
+                font-size: 40px;
+                text-align: center;
+                font-weight: 700;
+                color: white;
+                margin-top: -21%;
+                }
+                .cont-last-container {
+                    width: 87%;
+                    }
+                .address-box {
+                    width: 48%;
+                    float: left;
+                    padding-top: 20px;
+               }
+               .address-box2 {
+                width: 48%;
+                padding-top: 20px;
+                }
+
+                .address-box3 {
+                    width: 48%;
+                    margin-top: 20px;
+                    margin-left: 0px;
+                    padding-top: 30px;
+          }
+
+          .my-social-icon {
+            width: 28%;
+            }
+
+            .first-soci{
+                width: 40px;
+                padding-top: 9px;
+                font-size: 30px;
+                }
+            
+            .second-soci{
+                width: 40px;
+                padding-top: 9px;
+                font-size: 30px;
+                }
+                .thired-soci{
+                    width: 45px;
+                    font-size: 30px;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    }
+                }
+   @media screen and (min-width:900px) and (max-width:1020px){
+        .client-box1 {
+            width: 47%;
+            height: 295px;
+            margin-left: 10px;
+          }
+
+            .client-box2 {
+            width: 47%;
+            height: 295px;
+            margin-left: 40px;
+            }
+            .my-social-icon {
+                width: 31%;
+                }
+            .first-soci{
+                width: 40px;
+                padding-top: 9px;
+                font-size: 30px;
+                }
+            
+            .second-soci{
+                width: 40px;
+                padding-top: 9px;
+                font-size: 30px;
+                }
+
+            .thired-soci{
+                width: 40px;
+                font-size: 30px;
+                margin-top: 0px;
+                margin-left: 0px;
+                }
+
+   }
+
+
