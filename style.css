@@ -767,6 +767,10 @@
     float: left;
     position: relative;
     /* border: 2px solid red; */
+    background-image: url(images/will.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     }
     .me1 {
     display: block;
@@ -777,8 +781,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 99%;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     /*background-color: red;*/
@@ -804,6 +808,10 @@
     margin-left: 20px;
     position: relative;
     /* border: 2px solid red; */
+    background-image: url(images/clear.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     }
     .me2 {
     display: block;
@@ -814,8 +822,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 99%;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(154, 146, 146, 0.067);
@@ -841,6 +849,10 @@
     margin-left: 19.2px;
     position: relative;
     /* border: 2px solid red;*/
+    background-image: url(images/into.webp);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     }
     .me3 {
     display: block;
@@ -852,8 +864,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 99%;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(154, 146, 146, 0.067);
@@ -880,6 +892,10 @@
     margin-top: 20px;
     position: relative;
     /*border: 2px solid red;*/
+    background-image: url(images/dro.webp);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     }
     .me4 {
     display: block;
@@ -891,8 +907,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 99%;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(154, 146, 146, 0.423);;
@@ -920,6 +936,10 @@
     margin-top: 20px;
     position: relative;
     /* border: 2px solid red; */
+    background-image: url(images/money-heist.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     }
     .me5 {
     display: block;
@@ -931,8 +951,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 99%;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(154, 146, 146, 0.423);;
@@ -960,6 +980,10 @@
     margin-top: 20px;
     position: relative;
     /* border: 2px solid red;*/
+    background-image: url(images/last.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     }
     .image {
     display: block;
@@ -971,8 +995,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 99%;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     border-radius: 5px;
@@ -1684,15 +1708,81 @@
     width: 100%;
     height: auto;
     }
-    .all {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    }
+     .all {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        }
+        .image1 {
+            border-radius: 10px;
+            /* border: 1px solid red; */
+            width:290px;
+            height: 290px;
+            background-image: url(images/will.jpg);
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+        }
+        .image2 {
+            /* border: 1px solid red; */
+            border-radius: 10px;
+            width: 290px;
+            height: 290px;
+            margin: 0px;
+            background-image: url(images/clear.jpg);
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+        }
+        .image3 {
+            /* border: 1px solid red; */
+            margin: 0px;
+            width: 290px;
+            height: 290px;
+            background-image: url(images/into.webp);
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+        .image4 {
+            border-radius: 10px;
+            /* border: 1px solid red; */
+            margin: 0px;
+            width: 290px;
+            height: 290px;
+            background-image: url(images/dro.webp);
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+        .image5 {
+            /* border: 1px solid red; */
+            width: 280px;
+            height: 280px;
+            background-image: url(images/digitall.png);
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+            margin: 0px;
+            border-radius: 10px;
+        }
+        .image6 {
+            border-radius: 10px;
+            /* border: 1px solid red; */
+            width: 290px;
+            height: 290px;
+            background-image: url(images/last.jpg);
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+            margin: 0px;
+        }
     .portfolio-in {
     padding-top: 5px;
     font-size: 40px;
@@ -1704,19 +1794,7 @@
     margin-top: -46px;
     text-align: center;
     }
-   /* .image1{
-    width: 90%;
-    margin-left: 0px;
-    margin: 0 auto;
-    margin-top: 20px;
-    }
-
-    .image2, .image3, .image4, .image5, .image6 {
-    width: 90%;
-    margin-left: 0px;
-    margin: 0 auto;
-    margin-top: 20px;
-    }*/
+  
     .Testimonial {
     width: 100%;
     float: right;
@@ -2152,5 +2230,4 @@
                 }
 
    }
-
 
