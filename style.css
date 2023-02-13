@@ -767,6 +767,7 @@
     float: left;
     position: relative;
     /* border: 2px solid red; */
+    border-radius: 8px;
     background-image: url(images/will.jpg);
     background-size: cover;
     /* background-position: center; */
@@ -789,6 +790,7 @@
     }
     .image1:hover .overlay {
     opacity: 1;
+    background-color: #111418ec;
     }
     .web-name {
     color: white;
@@ -806,6 +808,7 @@
     height: 320px;
     float: left;
     margin-left: 20px;
+    border-radius: 8px;
     position: relative;
     /* border: 2px solid red; */
     background-image: url(images/clear.jpg);
@@ -830,6 +833,7 @@
     }
     .image2:hover .overlay {
     opacity: 1;
+    background-color: #111418ec;
     }
     .web-name{
     color: white;
@@ -847,6 +851,7 @@
     height: 320px;
     float: left;
     margin-left: 19.2px;
+    border-radius: 8px;
     position: relative;
     /* border: 2px solid red;*/
     background-image: url(images/into.webp);
@@ -868,11 +873,12 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(154, 146, 146, 0.067);
+    background-color: black;
     border-radius: 5px;
     }
     .image3:hover .overlay {
     opacity: 1;
+    background-color: #111418ec;
     }
     .web-name{
     color: white;
@@ -896,6 +902,7 @@
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
+    border-radius: 8px;
     }
     .me4 {
     display: block;
@@ -916,6 +923,7 @@
     }
     .image4:hover .overlay {
     opacity: 1;
+    background-color: #111418ec;
     }
     .web-name {
     color: white;
@@ -936,10 +944,11 @@
     margin-top: 20px;
     position: relative;
     /* border: 2px solid red; */
-    background-image: url(images/money-heist.jpg);
+    background-image: url(images/flat.png);
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
+    border-radius: 8px;
     }
     .me5 {
     display: block;
@@ -960,6 +969,7 @@
     }
     .image5:hover .overlay {
     opacity: 1;
+    background-color: #111418ec;
     }
     .web-name{
     color: white;
@@ -984,6 +994,7 @@
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
+    border-radius: 8px;
     }
     .image {
     display: block;
@@ -1004,6 +1015,7 @@
     }
     .image6:hover .overlay {
     opacity: 1;
+    background-color: #111418ec;
     }
     .web-name {
     color: white;
@@ -1404,7 +1416,7 @@
     transition: all .4s linear;
     transform: scale(1.1);
     }
-    @media screen and (min-width: 320px) and (max-width: 800px) {
+    @media screen and (min-width: 320px) and (max-width: 500px) {
     .side-box-nav {
     display: none;
     }
@@ -1718,7 +1730,7 @@
         gap: 20px;
         }
         .image1 {
-            border-radius: 10px;
+            border-radius: 8px;
             /* border: 1px solid red; */
             width:290px;
             height: 290px;
@@ -1729,7 +1741,7 @@
         }
         .image2 {
             /* border: 1px solid red; */
-            border-radius: 10px;
+            border-radius: 8px;
             width: 290px;
             height: 290px;
             margin: 0px;
@@ -1747,10 +1759,10 @@
             background-size: cover;
             /* background-position: center; */
             background-repeat: no-repeat;
-            border-radius: 10px;
+            border-radius: 8px;
         }
         .image4 {
-            border-radius: 10px;
+            border-radius: 8px;
             /* border: 1px solid red; */
             margin: 0px;
             width: 290px;
@@ -1763,17 +1775,17 @@
         }
         .image5 {
             /* border: 1px solid red; */
-            width: 280px;
-            height: 280px;
-            background-image: url(images/digitall.png);
+            width: 290px;
+            height: 290px;
+            background-image: url(images/flat.png);
             background-size: cover;
             /* background-position: center; */
             background-repeat: no-repeat;
             margin: 0px;
-            border-radius: 10px;
+            border-radius: 8px;
         }
         .image6 {
-            border-radius: 10px;
+            border-radius: 8px;
             /* border: 1px solid red; */
             width: 290px;
             height: 290px;
@@ -1860,8 +1872,7 @@
     margin-left: 0;
     margin-top: 20px;
     }
-}
-    @media screen and (min-width:320px) and (max-width:850px) {
+
     .top-logo {
     width: 80%;
     display: block;
@@ -1878,9 +1889,54 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
     }
     
 }
+
+
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    .side-box-nav {
+        display: none;
+        } 
+
+        .section {
+            width: 100%;
+            }
+
+            .right-banner-box {
+                width: 100%;
+                background-image: linear-gradient(to right, rgba(42, 42, 42, 0.75), rgba(38, 40, 40, 0.79)),url("images/mobile.webp");
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                flex-direction: column;
+                }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:851px) and (max-width:1100px){
     .top-button {
