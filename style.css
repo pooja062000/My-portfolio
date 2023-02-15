@@ -1897,7 +1897,7 @@
 
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
-   /* .side-box-nav {
+    .side-box-nav {
         display: none;
         } 
 
@@ -1918,19 +1918,154 @@
                 .about {
                     width: 100%;
                     margin: 0 auto;
-                    height: 120vh;
+                    height: 90vh;
                     }
+
+                    .main-heading {
+                        width: 100%;
+                        font-size: 50px;
+                        font-weight: 800;
+                        padding-top: 22px;
+                        }
+                        .what {
+                        font-size: 28px;
+                        text-align: center;
+                        margin-top: -90px;
+                        }
                     .about-me-col1 {
                     width: 100%;
-                    }*/
-                .white-text-box1 {
-                    width: 30%;
-                    padding-top: 20px;
-                    padding-left: 25px;
-                    margin-top: 5px;
                     }
-}
-    
+                .white-text-box1 {
+                    width: 100%;
+                    padding-left: 25px;
+                    }
+                    .white-text-box1 p {
+                        font-size: 18px;
+                        line-height: 1.6;
+                        }
+                    .col-inf-right {
+                        width: 100%;
+                        margin-top: 80px;
+                        }
+
+                        .my-name {
+                            font-size: 18px;
+                            padding-left: 25px;
+                            }
+                            .my-email {
+                            font-size: 18px;
+                            padding-left: 25px;
+                            }
+                            .my-age {
+                            font-size: 18px;
+                            padding-left: 25px;
+                            }
+                            .from {
+                            font-size: 18px;
+                            padding-left: 25px;
+                            }
+                            .about-button {
+                            width: 40%;
+                            font-size: 18px;
+                            margin-left: 20px;
+                            }
+
+                            .my-portfolio{
+                                width: 100%;
+                                height: auto;
+                                }
+
+                                .services-main-heading {
+                                    font-size: 45px;
+                                    font-weight: 900;
+                                    width: 100%;
+                                    }
+                                    .what {
+                                    font-size: 34px;
+                                    text-align: center;
+                                    margin-top: -100px;
+                                    } 
+
+                                
+                                .html-skills-box {
+                                width: 100%;
+                                }
+
+                                .css-skills-box {
+                                    width: 100%;
+                                    margin-left: 0px;
+                                    margin-top: 20px;
+                                    }
+                                    .java-skills-box {
+                                    width: 100%;
+                                     margin-top: 20px;
+                                } 
+                                
+                                .boostrap-skills-box {
+                                    width: 100%;
+                                    margin-top: 20px;
+                                    margin-left: 0px;
+                                    }
+
+                                .react-skills-box {
+                                    width: 100%;
+                                    margin-top: 20px;
+                                    }
+
+                                    .jquery-skills-box {
+                                        width: 100%;
+                                        margin-top: 20px;
+                                        margin-left: 0px;
+                                        }
+
+                                        .my-button2 {
+                                            width: 47%;
+                                            height: 55px;
+                                            float: left;
+                                            margin-top: 60%;
+                                            margin-right: 0px;
+                                            text-align: center;
+                                            padding-top: 3px;
+                                            font-size: 19px;
+                                            margin-left: 32%;
+                                            }
+                                            .summary {
+                                                font-size: calc(1.30rem + 6.3vw) !important;
+                                                }
+                                                .changes{
+                                                    margin-top: -45px;
+                                                    }
+                                            .my_educ {
+                                                width: 100%;
+                                                height: 75vh;
+                                             }
+
+                                             .my-education-container {
+                                                width: 80%;
+                                                }
+
+                                                .computer-sci-box {
+                                                    width: 100%;
+                                                    height: 210px;
+                                                    margin: 0 auto;
+                                                    }
+                                                    .master-deg-box {
+                                                        width: 100%;
+                                                    height: 210px;
+                                                    margin: 0 auto;
+                                                    margin-top: 28px;
+                                                        }
+
+                                                        .projects{
+                                                            width: 100%;
+                                                            
+                                                         }
+                                                         .my-work {
+                                                            font-size: 35px;
+                                                            margin-top: -52px;
+                                                            
+                                                            }
+} 
 
 
 
@@ -2105,29 +2240,33 @@
         height: 230px;
     }
     .projects{
-     height: 145vh;
+     height: 180vh;
      width: 100%;    
   }
 
-  .all {
-    width: 65%;
-    height: auto;
-    margin-top: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: 5px solid red;
-    flex-wrap: wrap;
-    }
+.all{
+        width: 88.6%;
+        margin-top: 25px;   
+        }
+    
 
-  .image1{
+  /*.image1{
     width: 46%;
+    height: 420px;
   float: left;
  
-}
+}|*/
 
 .image5{
     width: 46%;
+    height: 420px;
+    float: left;
+    margin-left: 0;
+}
+
+.image1{
+    width: 46%;
+    height: 420px;
     float: left;
     margin-left: 0;
 }
@@ -2135,6 +2274,7 @@
 .image4 {
     width: 46%;
     float: left;
+    height: 420px;
     margin-left: 50px;
 
 }
@@ -2142,6 +2282,7 @@
 .image2 {
     width: 46%;
     float: left;
+    height: 420px;
     margin-left: 50px;
 }
 
@@ -2149,12 +2290,14 @@
     width: 46%;
     float: left;
     margin-left: 0;
+    height: 420px;
     margin-top: 20px; 
 }
 
 .image6 {
     width: 46%;
     float: left;
+    height: 420px;
     margin-left: 50px;
     
 }
@@ -2226,9 +2369,7 @@
                 .gat-touch {
                 font-size: 40px;
                 text-align: center;
-                font-weight: 700;
-                color: white;
-                margin-top: -21%;
+                margin-top: -15%;
                 }
                 .cont-last-container {
                     width: 87%;
@@ -2309,6 +2450,97 @@
    }
 
    
+@media screen and (min-width:1100px) and (max-width:1102px){
+
+    .projects{
+        height: 130vh;
+            
+     }
+    .all {
+        width: 100%;   
+        }
+
+        .image1{
+            width: 32%;
+          float: left;
+          height: 420px;
+         
+        }
+        .image5{
+            width: 32%;
+            float: left;
+            margin-left: 20px;
+        }
+        
+        .image4 {
+            width: 32%;
+            float: left;
+            margin-left: 0;
+        
+        }
+        
+        .image2 {
+            width: 32%;
+            float: left;
+            margin-left: 20px;
+        }
+        
+        .image3 {
+            width: 32%;
+            float: left;
+            margin-left: 20px;
+            margin-top: 0px; 
+        }
+        
+        .image6 {
+            width: 32%;
+            float: left;
+            margin-left: 20px;
+        }
+
+        #contact {
+            width: 100%;
+            height: auto;
+            }
+            .my-social-icon {
+                width: 30%;
+                }
+            .first-soci{
+                width: 36px;
+                padding-top: 9px;
+                font-size: 30px;
+                }
+            
+            .second-soci{
+                width: 36px;
+                padding-top: 9px;
+                font-size: 30px;
+                }
+
+            .thired-soci{
+                width: 36px;
+                font-size: 30px;
+                margin-top: 0px;
+                margin-left: 3px;
+                }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:1100px) and (max-width:1500px){
 
@@ -2395,26 +2627,47 @@
                     text-align: center;
                     margin-top: -80px;
                     }
+
+                    .projects{
+                        height: 180vh;
+                    }
                     .all {
                         width: 100%;
                         height: auto;
-                        flex-direction: column;                    
-                        
-                        
-                         
+                        display: flex;             
+                        justify-content: space-around;
+                        align-items: center;
+                        flex-wrap: wrap;                      
                         }
 
                     .image1 {
-                        border-radius: 8px;
-                        /* border: 1px solid red; */
-                        width:300px;
-                        height: 300px;
-                        background-image: url(images/will.jpg);
-                        background-size: cover;
-                        /* background-position: center; */
-                        background-repeat: no-repeat;
-                       
+                        width: 45%;
+                        height: 420px;
+                        margin-left: 20px;  
                     }
+
+                    .image2 {
+                        width: 45%;
+                        height: 420px;
+                        }
+
+                        .image3 {
+                            width: 45%;
+                            height: 420px;
+                            margin-top: 20px;
+                            }
+                            .image4 {
+                                width: 45%;
+                                height: 420px;
+                                }
+                                .image5 {
+                                    width: 45%;
+                                    height: 420px;
+                                    }
+                                    .image6 {
+                                        width: 45%;
+                                        height: 420px;
+                                        }    
 
                     .testimonial-heading {
                         font-size: 72px;
