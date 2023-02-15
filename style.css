@@ -1479,7 +1479,7 @@
     .about {
     width: 100%;
     float: left;
-    height: 120vh;
+    height: 95vh;
     }
     .about-me-col1 {
     width: 100%;
@@ -1547,7 +1547,7 @@
     margin-top: -83px;
     }
     .my_educ{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     }
     .my-education-container {
@@ -1892,17 +1892,18 @@
   
     }
     
-}
+    }
 
 
 
 @media screen and (min-width: 501px) and (max-width: 800px) {
-    .side-box-nav {
+   /* .side-box-nav {
         display: none;
         } 
 
         .section {
-            width: 100%;
+            
+            display: none;
             }
 
             .right-banner-box {
@@ -1913,6 +1914,21 @@
                 display: flex;
                 flex-direction: column;
                 }
+
+                .about {
+                    width: 100%;
+                    margin: 0 auto;
+                    height: 120vh;
+                    }
+                    .about-me-col1 {
+                    width: 100%;
+                    }*/
+                .white-text-box1 {
+                    width: 30%;
+                    padding-top: 20px;
+                    padding-left: 25px;
+                    margin-top: 5px;
+                    }
 }
     
 
@@ -1938,7 +1954,7 @@
 
 
 
-@media screen and (min-width:851px) and (max-width:1100px){
+@media screen and (min-width:900px) and (max-width:1100px){
     .top-button {
         width: 170px;
         height: 55px;
@@ -2095,8 +2111,13 @@
 
   .all {
     width: 65%;
+    height: auto;
     margin-top: 25px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid red;
+    flex-wrap: wrap;
     }
 
   .image1{
@@ -2287,3 +2308,213 @@
 
    }
 
+   
+
+@media screen and (min-width:1100px) and (max-width:1500px){
+
+    .menu {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-top: 16px;
+        }
+        ul {
+        list-style-type: none;
+        }
+        li {
+        float: left;
+        padding: 10px 23px;
+        }
+        a {
+        color: rgba(250, 250, 250, 0.9);
+        text-decoration: none;
+        }
+        a:hover {
+        color: #20c997;
+        }
+        .shadow1 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        }
+
+        .social3 {
+            width: 35px;
+            height: 42px;
+            float: left;
+            margin-left: 0px;
+            color: rgba(250, 250, 250, 0.9);
+            padding-top: 10px;
+            font-size: 18px;
+            /*border: solid 1px rgba(255, 255, 255, 0.3);*/
+            }
+
+            .services-main-heading {
+                text-align: center;
+                margin-top: 70px;
+                font-size: 60px;
+                }
+                .what {
+                font-size: 35px;
+                text-align: center;
+                margin-top: -96px;
+                }
+
+                .skills-box {
+                    float: left;
+                    }
+                  .css-skills-box {
+                    float: left;
+                    margin-left: 25px;
+                  }
+                  .boostrap-skills-box {
+                    float: right;
+                    margin-left: 25px;
+                  }
+            
+                  .jquery-skills-box {
+                    float: right;
+                    margin-left: 25px;
+                 }
+            
+                 .my-button2 {
+                    width: 28%;
+                    margin-top: 80px;
+                    margin-right: 40px;
+                    font-size: 18px;
+                    margin-left: 40%;        
+              }
+            
+              .changes {
+                font-size: 32px;
+                text-align: center;
+                margin-top: -75px;
+                }
+
+                .my-work {
+                    font-size: 40px;
+                    text-align: center;
+                    margin-top: -80px;
+                    }
+                    .all {
+                        width: 100%;
+                        height: auto;
+                        flex-direction: column;                    
+                        
+                        
+                         
+                        }
+
+                    .image1 {
+                        border-radius: 8px;
+                        /* border: 1px solid red; */
+                        width:300px;
+                        height: 300px;
+                        background-image: url(images/will.jpg);
+                        background-size: cover;
+                        /* background-position: center; */
+                        background-repeat: no-repeat;
+                       
+                    }
+
+                    .testimonial-heading {
+                        font-size: 72px;
+                        text-align: center;
+                       
+                        }
+                    
+                        .client-speak-text {
+                            font-size: 38px;
+                            text-align: center;
+                          margin-top: -75px;
+                     }
+
+                     .client-last-container {
+                        width: 92%;
+                        }
+                     .client-box1 {
+                        width: 48%;
+                        height: 295px;
+                      }
+            
+                        .client-box2 {
+                        width: 48%;
+                        height: 295px;
+                        margin-left: 20px;
+                        }
+                        .contact {
+                            width: 80%;
+                            height: auto;
+                            }
+                        .contact-back-text {
+                            opacity: 0.1;
+                            font-size: 90px; 
+                            }
+                            .gat-touch {
+                            font-size: 42px;
+                            margin-top: -19%;
+                            }
+
+                            .cont-last-container {
+                                width: 80%;
+                        
+                                }
+
+                                .address-box {
+                                    width: 44%;
+                                    }
+
+                                    .address-box2 {
+                                        width: 44%;
+                                        height: 200px;
+                                        float: left;
+                                        /*border: 2px solid green;*/
+                                        background-color: #212529b5;
+                                        border-radius: 8px;
+                                        margin-left: 35px;
+                                        }
+                                        .address-box3 {
+                                            width: 44%;
+                                            height: 200px;
+                                            float: left;
+                                            /*border: 2px solid green;*/
+                                            background-color: #212529b5;
+                                            border-radius: 8px;
+                                            margin-left: 0;
+                                            margin-top: 35px;
+                                            }
+                
+
+
+}
+
+@media screen and (min-width:1400px) and (max-width:1500px){
+    .menu {
+        font-size: 18px;
+        padding-left: 67px;
+        padding-top: 16px;
+        }
+}
+
+@media screen and (min-width:1550px) and (max-width:1620px){
+    .menu {
+        font-size: 18px;
+        padding-left: 74px;
+        padding-top: 16px;
+        }
+}
+
+@media screen and (min-width:1621px) and (max-width:1700px){
+    .menu {
+        font-size: 18px;
+        padding-left: 90px;
+        padding-top: 16px;
+        }
+}
+
+@media screen and (min-width:1701px) and (max-width:1800px){
+    .menu {
+        font-size: 18px;
+        padding-left: 100px;
+        padding-top: 16px;
+        }
+}
