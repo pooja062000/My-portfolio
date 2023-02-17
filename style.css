@@ -1721,7 +1721,7 @@
     }
     .projects{
     width: 100%;
-    height: auto;
+    height: 265vh;
     }
     .all {
     width: 100%;
@@ -1749,6 +1749,7 @@
     width: 290px;
     height: 290px;
     margin: 0px;
+    margin-left: 0;
     margin-top: 20px;
     background-image: url(images/clear.jpg);
     background-size: cover;
@@ -1756,16 +1757,14 @@
     background-repeat: no-repeat;
     }
     .image3 {
-    /* border: 1px solid red; */
-    margin: 0px;
     width: 290px;
     height: 290px;
     margin-top: 20px;
     background-image: url(images/into.webp);
     background-size: cover;
-    /* background-position: center; */
     background-repeat: no-repeat;
     border-radius: 8px;
+    margin-left: 0;
     }
     .image4 {
     border-radius: 8px;
@@ -1779,6 +1778,7 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     margin-top: 20px;
+    margin-left: 0;
     }
     .image5 {
     /* border: 1px solid red; */
@@ -1788,21 +1788,20 @@
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
-    margin: 0px;
     margin-top: 20px;
     border-radius: 8px;
+    margin-left: 0;
     }
     .image6 {
     border-radius: 8px;
-    /* border: 1px solid red; */
     width: 290px;
-    margin-top: 20px;
+    margin-left: 0;
     height: 290px;
     background-image: url(images/last.jpg);
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
-    margin: 0px;
+    margin-top: 20px;
     }
     .portfolio-in {
     padding-top: 5px;
@@ -2215,299 +2214,569 @@
     margin-left: 0;
     }
     }
-
     @media screen and (min-width:650px) and (max-width:750px){
-        .right-banner-box {
-            width: 100%;
-            height: 120vh;
-            background-image: linear-gradient(to right, rgba(42, 42, 42, 0.75), rgba(38, 40, 40, 0.79)),url("images/mobile.webp");
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
+    .right-banner-box {
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(to right, rgba(42, 42, 42, 0.75), rgba(38, 40, 40, 0.79)),url("images/mobile.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    }
+    .about-button {
+    width: 25%;
+    margin-left: 20px;
+    }
+    .my-portfolio{
+    width: 100%;
+    float: right;
+    height: 95vh;
+    }
+    .skills-box {
+    width: 100%;
+    }
+    .html-skills-box {
+    width: 46%;
+    float: left;
+    }
+    .html-skills-box h6 {
+    font-size: 16px;
+    }
+    .css-skills-box {
+    width: 46%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 40px;
+    }
+    .css-skills-box h6 {
+    font-size: 16px;
+    }
+    .float-end {
+    font-size: 15px;
+    }
+    .java-skills-box {
+    width: 46%;
+    float: left;
+    margin-top: 20px;
+    }
+    .java-skills-box h6 {
+    font-size: 16px;
+    }
+    .boostrap-skills-box {
+    width: 46%;
+    margin-top: 20px;
+    margin-left: 40px;
+    }
+    .boostrap-skills-box h6 {
+    font-size: 16px;
+    }
+    .react-skills-box {
+    width: 46%;
+    margin-top: 20px;
+    }
+    .react-skills-box h6 {
+    font-size: 16px;
+    }
+    .jquery-skills-box {
+    width: 46%;
+    margin-top: 20px;
+    margin-left: 40px;
+    }
+    .jquery-skills-box h6 {
+    font-size: 16px;
+    }
+    .my-button2 {
+    width: 30%;
+    height: 46px;
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 40%;
+    }
+    .thired-soci{
+    padding-top: 0px;
+    }
+    }
+    @media screen and (min-width:751px) and (max-width:800px){
+    .right-banner-box {
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(to right, rgba(42, 42, 42, 0.75), rgba(38, 40, 40, 0.79)),url("images/mobile.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    }
+    .about {
+    height: 70vh;
+    }
+    .white-text-box1 {
+    width: 60%;
+    margin-top: 20px;
+    }
+    .white-text-box1 h1 {
+    font-size: 23px;
+    }
+    .white-text-box1 p {
+    font-size: 14px;
+    }
+    .col-inf-right {
+    width: 37%;
+    float: left;
+    }
+    .my-name {
+    font-size: 16px;
+    padding-left: 60px;
+    }
+    .my-email {
+    font-size: 16px;
+    padding-left: 60px;
+    }
+    .my-age {
+    font-size: 16px;
+    padding-left: 60px;
+    }
+    .from {
+    font-size: 16px;
+    padding-left: 60px;
+    }
+    .about-button {
+    width: 52%;
+    height: 45px;
+    float: left;
+    margin-left: 58px;
+    padding-top: 12px;
+    margin-top: 40px;
+    }  
+    .my-portfolio{
+    width: 100%;
+    float: right;
+    height: 95vh;
+    }
+    .skills-box {
+    width: 100%;
+    }
+    .html-skills-box {
+    width: 46%;
+    float: left;
+    }
+    .html-skills-box h6 {
+    font-size: 16px;
+    }
+    .css-skills-box {
+    width: 46%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 40px;
+    }
+    .css-skills-box h6 {
+    font-size: 16px;
+    }
+    .float-end {
+    font-size: 15px;
+    }
+    .java-skills-box {
+    width: 46%;
+    float: left;
+    margin-top: 20px;
+    }
+    .java-skills-box h6 {
+    font-size: 16px;
+    }
+    .boostrap-skills-box {
+    width: 46%;
+    margin-top: 20px;
+    margin-left: 40px;
+    }
+    .boostrap-skills-box h6 {
+    font-size: 16px;
+    }
+    .react-skills-box {
+    width: 46%;
+    margin-top: 20px;
+    }
+    .react-skills-box h6 {
+    font-size: 16px;
+    }
+    .jquery-skills-box {
+    width: 46%;
+    margin-top: 20px;
+    margin-left: 40px;
+    }
+    .jquery-skills-box h6 {
+    font-size: 16px;
+    }
+    .Testimonial {
+    height: 90vh;
+    }
+    .client-last-container {
+    width: 97%;
+    margin-top: 60px;
+    }
+    .client-box1 {
+    width: 47%;
+    height: 270px;
+    float: left;
+    }
+    .client-box2 {
+    width: 47%;
+    height: 270px;
+    margin-left: 34px;
+    margin-top: 0px;
+    }
+    .my_educ {
+    height: 75vh;
+    }
+    .bottom-eduation-cont {
+    width: 95%;
+    }
+    .computer-sci-box {
+    width: 46%;
+    height: 200px;
+    float: left;
+    }
+    .master-deg-box {
+    width: 46%;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: 35px;
+    }
+    .changes {
+    margin-top: -62px;
+    }
+    .contact-back-text {
+    font-size: 60px; 
+    }
+    .gat-touch {
+    font-size: 40px;
+    margin-top: -14%;
+    }
+    .cont-last-container {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 60px;
+    }
+    .address-box {
+    width: 47%;
+    float: left;
+    }
+    .address-box2 {
+    width: 47%;
+    margin-top: 0px;
+    margin-left: 35px;
+    }
+    .address-box3 {
+    width: 47%;
+    }
+    }                                                                                                          
+    @media screen and (min-width: 801px) and (max-width: 900px){
+    .side-box-nav {
+    display: none;
+    }
+    .right-banner-box {
+    width: 100%;
+    }
+    .top-logo {
+    width: 80%;
+    display: block;
+    }
+    #toggle {
+    display: block;
+    }
+    .my {
+    display: none;
+    }
+    .drop-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .about {
+    width: 100%;
+    height: 70vh;
+    }
+    .main-heading {
+    font-size: 60px;
+    margin-top: 30px;
+    }
+    .what {
+    font-size: 33px;
+    }
+    .white-text-box1 p {
+    font-size: 16px;
+    }
+    .col-inf-right {
+    margin-top: 0px;
+    }
+    .my-name {
+    font-size: 16px;
+    }
+    .my-email {
+    font-size: 16px;
+    }
+    .my-age {
+    font-size: 16px;
+    }
+    .from {
+    font-size: 16px;
+    }
+    .about-button {
+    width: 48%;
+    height: 48px;
+    margin-top: 40px;
+    }
+    .my-portfolio{
+    width: 100%;
+    height: 100vh;
+    }
+    .services-main-heading {
+    font-size: 60px;
+    }
+    .what {
+    font-size: 35px;
+    text-align: center;
+    margin-top: -103px;
+    }
+    .skills-box {
+    width: 100%;
+    }
+    .html-skills-box {
+    width: 46%;
+    float: left;
+    }
+    .html-skills-box h6 {
+    font-size: 16px;
+    }
+    .css-skills-box {
+    width: 46%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 40px;
+    }
+    .css-skills-box h6 {
+    font-size: 16px;
+    }
+    .float-end {
+    font-size: 15px;
+    }
+    .java-skills-box {
+    width: 46%;
+    float: left;
+    margin-top: 20px;
+    }
+    .java-skills-box h6 {
+    font-size: 16px;
+    }
+    .boostrap-skills-box {
+    width: 46%;
+    margin-top: 20px;
+    margin-left: 40px;
+    }
+    .boostrap-skills-box h6 {
+    font-size: 16px;
+    }
+    .react-skills-box {
+    width: 46%;
+    margin-top: 20px;
+    }
+    .react-skills-box h6 {
+    font-size: 16px;
+    }
+    .jquery-skills-box {
+    width: 46%;
+    margin-top: 20px;
+    margin-left: 40px;
+    }
+    .jquery-skills-box h6 {
+    font-size: 16px;
+    }
+    .my-button2 {
+    width: 25%;
+    font-size: 14px;
+    margin-left: 40%;
+    }
+    .my_educ {
+    width: 100%;
+    }
+    .changes {
+    margin-top: -60px;
+    }
+    .computer-sci-box {
+    width: 46%;
+    height: 200px;
+    }
+    .science-main-text {
+    font-size: 17px;
+    }
+    .sci-high-light {
+    font-size: 17px;
+    }
+    .master-deg-box {
+    width: 46%;
+    }
+    .master-main-text {
+    font-size: 17px;
+    }
+    .mast-high-light {
+    font-size: 17px;
+    }
+    .projects{
+    width: 100%;
+    height: 185vh;
+    }
+    .all{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    }
+    .image1 {
+    width: 47%;
+    height: 300px;
+    }
+    .image2 {
+    width: 47%;
+    height: 300px;
+    }
+    .image3 {
+    width: 47%;
+    height: 300px;
+    margin-left: 0;
+    margin-top: 20px;
+    }
+    .image4 {
+    width: 47%;
+    height: 300px;
+    margin-top: 20px;
+    }
+    .image5 {
+    width: 47%;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 0;
+    }
+    .image6 {
+    width: 47%;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 0;
+    }
+    .Testimonial {
+    width: 100%;
+    height: 83vh;
+    }
+    .testimonial-heading {
+    font-size: 60px;
+    }
+    .client-speak-text {
+    font-size: 35px;
+    margin-top: -55px;
+    }
+    .client-last-container {
+    width: 95%;
+    margin-top: 20px;
+    }
+    .client-box1 {
+    width: 47%;
+    }
+    .contact {
+    width: 80%;
+    height: 530px;
+    position: relative;
+    /*border: 2px solid red;*/
+    float: right;
+    background-color: #343a40 !important;
+    }
+    .client-paragraph {
+    font-size: 14px;
+    }
+    .client-box2 {
+    width: 47%;
+    height: 250px;
+    margin-left: 38px;
+    }
+    .client2-paragraph {
+    font-size: 14px;
+    }
+    .contact {
+    width: 100%;
+    height: auto;
+    }
+    .contact-back-text {
+    font-size: 60px;
+    }
+    .gat-touch {
+    font-size: 38px;
+    margin-top: -14%;
+    }
+    .cont-last-container {
+    width: 75%;
+    margin-top: 40px;
+    }
+    .address-box {
+    width: 48%;
+    }
+    .address-text{
+    font-size: 20px;
+    }
+    .distt{
+    font-size: 17px;
+    }
+    .address-box2 {
+    width: 48%;
+    }
+    .contact-ph-no{    
+    font-size: 20px;
+    }
+    .domai1{
+    font-size: 16px;
+    }
+    .address-box3 {
+    width: 48%;
+    margin-left: 0;
+    margin-top: 20px;
+    }
+    .addrress{
+    font-size: 20px; 
+    }
+    .my-social-icon {
+    width: 35.11%;
+    }
+    .first-soci{
+    width: 33px;
+    font-size: 17px;
+    }
+    .second-soci{
+    width: 33px;
+    font-size: 17px;
+    }
+    .thired-soci{
+    width: 33px;
+    font-size: 17px;
+    }
+    }   
+    @media screen and (min-width:900px) and (max-width:1100px){
+        .top-logo {
+            width: 80%;
+            display: block;
+            }
+            #toggle {
+            display: block;
+            }
+            .my {
+            display: none;
+            }
+            .drop-down{
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
             }
-            .about-button {
-                width: 25%;
-                margin-left: 20px;
-                }
-
-                .my-portfolio{
-                    width: 100%;
-                    float: right;
-                    height: 95vh;
-                    }
-                .skills-box {
-                    width: 100%;
-                    }
-                .html-skills-box {
-                    width: 46%;
-                    float: left;
-                    }
-
-                    .html-skills-box h6 {
-                        font-size: 16px;
-
-                        }
-
-                    .css-skills-box {
-                        width: 46%;
-                        float: left;
-                        margin-top: 0px;
-                        margin-left: 40px;
-                        }
-
-                        .css-skills-box h6 {
-                            font-size: 16px;
-                          
-                            }
-
-                            .float-end {
-                                font-size: 15px;
-                                }
-                        .java-skills-box {
-                            width: 46%;
-                            float: left;
-                            margin-top: 20px;
-                            }
-
-                            .java-skills-box h6 {
-                                font-size: 16px;
-                                }
-                                .boostrap-skills-box {
-                                    width: 46%;
-                                    margin-top: 20px;
-                                    margin-left: 40px;
-                                    }
-
-                                    .boostrap-skills-box h6 {
-                                        font-size: 16px;
-                                        }
-
-                                        .react-skills-box {
-                                            width: 46%;
-                                            margin-top: 20px;
-                                            }
-                                            .react-skills-box h6 {
-                                                font-size: 16px;
-                                            }
-
-                                            .jquery-skills-box {
-                                                width: 46%;
-                                                margin-top: 20px;
-                                                margin-left: 40px;
-                                                }
-                                                .jquery-skills-box h6 {
-                                                font-size: 16px;
-
-                                                }
-
-                                                .my-button2 {
-                                                    width: 30%;
-                                                    height: 46px;
-                                                    margin-top: 40px;
-                                                    font-size: 15px;
-                                                    margin-left: 40%;
-                                                    }
-                                                    .thired-soci{
-                                                        padding-top: 0px;
-                                                        }
-                                                    }
-                                                        @media screen and (min-width:751px) and (max-width:800px){
-                                                            .right-banner-box {
-                                                                width: 100%;
-                                                                height: 120vh;
-                                                                background-image: linear-gradient(to right, rgba(42, 42, 42, 0.75), rgba(38, 40, 40, 0.79)),url("images/mobile.webp");
-                                                                background-position: center;
-                                                                background-size: cover;
-                                                                background-repeat: no-repeat;
-                                                                display: flex;
-                                                                flex-direction: column;
-                                                                }
-                                                            .about {
-                                                                height: 70vh;
-                                                                }
-                                                            .white-text-box1 {
-                                                                width: 60%;
-                                                                margin-top: 20px;
-                                                                }
-                                                                .white-text-box1 h1 {
-                                                                    font-size: 23px;
-                                                                    }
-                                                               
-                                                                    .white-text-box1 p {
-                                                                    font-size: 14px;
-                                                                    
-                                                     }
-                                                     .col-inf-right {
-                                                        width: 37%;
-                                                        float: left;
-                                                        }
-
-                                                        .my-name {
-                                                            font-size: 16px;
-                                                            padding-left: 60px;
-                                                            }
-                                                            .my-email {
-                                                            font-size: 16px;
-                                                            padding-left: 60px;
-                                                            }
-                                                            .my-age {
-                                                            font-size: 16px;
-                                                            padding-left: 60px;
-                                                            }
-                                                            .from {
-                                                            font-size: 16px;
-                                                            padding-left: 60px;
-                                                            }
-                                                            .about-button {
-                                                            width: 52%;
-                                                            height: 45px;
-                                                            float: left;
-                                                            margin-left: 58px;
-                                                            padding-top: 12px;
-                                                            margin-top: 40px;
-                                                            
-                                                        }  
-                                                        
-                                                        .my-portfolio{
-                                                            width: 100%;
-                                                            float: right;
-                                                            height: 95vh;
-                                                            }
-                                                        .skills-box {
-                                                            width: 100%;
-                                                            }
-                                                        .html-skills-box {
-                                                            width: 46%;
-                                                            float: left;
-                                                            }
-                                        
-                                                            .html-skills-box h6 {
-                                                                font-size: 16px;
-                                        
-                                                                }
-                                        
-                                                            .css-skills-box {
-                                                                width: 46%;
-                                                                float: left;
-                                                                margin-top: 0px;
-                                                                margin-left: 40px;
-                                                                }
-                                        
-                                                                .css-skills-box h6 {
-                                                                    font-size: 16px;
-                                                                  
-                                                                    }
-                                        
-                                                                    .float-end {
-                                                                        font-size: 15px;
-                                                                        }
-                                                                .java-skills-box {
-                                                                    width: 46%;
-                                                                    float: left;
-                                                                    margin-top: 20px;
-                                                                    }
-                                        
-                                                                    .java-skills-box h6 {
-                                                                        font-size: 16px;
-                                                                        }
-                                                                        .boostrap-skills-box {
-                                                                            width: 46%;
-                                                                            margin-top: 20px;
-                                                                            margin-left: 40px;
-                                                                            }
-                                        
-                                                                            .boostrap-skills-box h6 {
-                                                                                font-size: 16px;
-                                                                                }
-                                        
-                                                                                .react-skills-box {
-                                                                                    width: 46%;
-                                                                                    margin-top: 20px;
-                                                                                    }
-                                                                                    .react-skills-box h6 {
-                                                                                        font-size: 16px;
-                                                                                    }
-                                        
-                                                                                    .jquery-skills-box {
-                                                                                        width: 46%;
-                                                                                        margin-top: 20px;
-                                                                                        margin-left: 40px;
-                                                                                        }
-                                                                                        .jquery-skills-box h6 {
-                                                                                        font-size: 16px;
-                                        
-                                                                                        }
-
-                                                                                        .Testimonial {
-                                                                                            height: 90vh;
-                                                                                            }
-
-                                                                                        .client-last-container {
-                                                                                            width: 97%;
-                                                                                            margin-top: 60px;
-                                                                                            }
-                                                                                        .client-box1 {
-                                                                                            width: 47%;
-                                                                                            height: 270px;
-                                                                                            float: left;
-                                                                                            }
-                                                                                            .client-box2 {
-                                                                                            width: 47%;
-                                                                                            height: 270px;
-                                                                                            margin-left: 34px;
-                                                                                            margin-top: 0px;
-                                                                                            }
-                                                                                            .my_educ {
-                                                                                                height: 75vh;
-                                                                                                }
-                                                                                            .bottom-eduation-cont {
-                                                                                                width: 95%;
-                                                                                                }
-                                                                                            .computer-sci-box {
-                                                                                                width: 46%;
-                                                                                                height: 200px;
-                                                                                                float: left;
-                                                                                                }
-
-                                                                                                .master-deg-box {
-                                                                                                    width: 46%;
-                                                                                                    height: 200px;
-                                                                                                    margin-top: 0px;
-                                                                                                    margin-left: 35px;
-                                                                                                    }
-                                                                                                    .changes {
-                                                                                                        margin-top: -62px;
-                                                                                                        }
-                                                                                                        .contact-back-text {
-                                                                                                            font-size: 60px; 
-                                                                                                            }
-                                                                                                            .gat-touch {
-                                                                                                            font-size: 40px;
-                                                                                                            margin-top: -14%;
-                                                                                                            }
-                                                                                                            .cont-last-container {
-                                                                                                                width: 95%;
-                                                                                                                margin: 0 auto;
-                                                                                                                margin-top: 60px;
-                                                                                                                }
-                                                                                                            .address-box {
-                                                                                                                width: 47%;
-                                                                                                                float: left;
-                                                                                                                }
-                                                                                                                .address-box2 {
-                                                                                                                    width: 47%;
-                                                                                                                    margin-top: 0px;
-                                                                                                                    margin-left: 35px;
-                                                                                                                    }
-                                                                                                                    .address-box3 {
-                                                                                                                        width: 47%;
-                                                                                                                        }
-   
-                                                                                                                    }                                                               
-
-    @media screen and (min-width:900px) and (max-width:1100px){
     .top-button {
     width: 170px;
     height: 55px;
@@ -2539,17 +2808,17 @@
     .about {
     width: 100%;
     float: left;
-    height: 60vh;
+    height: 65vh;
     }
     .white-text-box1 h1 {
-    font-size: 30px;
+    font-size: 23px;
     color: white;
     }
     .high-light {
     color: #20c997;
     }
     .white-text-box1 p {
-    font-size: 21px;
+    font-size: 16px;
     }
     .col-inf-right {
     width: 30%;
@@ -2563,33 +2832,37 @@
     height: 115px;
     text-align: center;
     margin-top: 50px;
-    font-size: 70px;
+    font-size: 60px;
     }
     .what {
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
-    margin-top: -0px;
+    margin-top: 0px;
     }
+    .col-inf-right {
+        margin-top: 0px;
+        }
     .my-name {
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 25px;
     }
     .my-email {
-    font-size: 19px;
+    font-size: 17px;
     padding-left: 25px;
     }
     .my-age {
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 25px;
     }
     .from {
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 25px;
     }
     .about-button {
-    width: 65%;
+    width: 56%;
+    height: 48px;
     margin-left: 0px;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 20px;
     }
     .my-portfolio{
@@ -2626,8 +2899,16 @@
     }
     .my_educ {
     width: 100%;
-    height: 65vh;
+    height: 80vh;
     }
+
+    .changes {
+        font-size: 30px;
+        margin-top: -55px;
+        }
+        .summary {
+        font-size: calc(1.30rem + 4.3vw) !important;
+        }
     .bottom-eduation-cont {
     width: 98%;
     }
@@ -2642,11 +2923,11 @@
     height: 230px;
     }
     .projects{
-    height: 180vh;
+    height: 190vh;
     width: 100%;    
     }
     .all{
-    width: 88.6%;
+    width: 76%;
     margin-top: 25px;   
     }
     /*.image1{
@@ -2656,76 +2937,76 @@
     }|*/
     .image5{
     width: 46%;
-    height: 420px;
+    height: 310px;
     float: left;
     margin-left: 0;
     }
     .image1{
     width: 46%;
-    height: 420px;
+    height: 310px;
     float: left;
     margin-left: 0;
     }
     .image4 {
     width: 46%;
     float: left;
-    height: 420px;
+    height: 310px;
     margin-left: 50px;
     }
     .image2 {
     width: 46%;
     float: left;
-    height: 420px;
+    height: 310px;
     margin-left: 50px;
     }
     .image3 {
     width: 46%;
     float: left;
     margin-left: 0;
-    height: 420px;
+    height: 310px;
     margin-top: 20px; 
     }
     .image6 {
     width: 46%;
     float: left;
-    height: 420px;
+    height: 310px;
     margin-left: 50px;
     }
     .Testimonial {
     width: 100%;
+    height: 90vh;
     }
     .testimonial-heading {
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     }
     .client-speak-text {
-    font-size: 35px;
+    font-size: 36px;
     text-align: center;
-    margin-top: -80px;
+    margin-top: -60px;
     }
     .client-last-container {
-    width: 97%;
+    width: 95%;
     height: 300px;
+    margin-top: 10px;
     }
     .client-box1 {
     width: 48%;
-    height: 295px;
     }
     .client-image-text {
-    font-size: 18px;
+    font-size: 17px;
     }
     .client-village {
-    font-size: 18px;
+    font-size: 17px;
     padding-left: 110px;
     }
     .client-paragraph {
     padding-left: 38px;
-    font-size: 17px;
+    font-size: 16px;
     padding-top: 26px;
     }
     .client-box2 {
     width: 48%;
-    height: 295px;
     margin-left: 40px;
     }
     .client2-village {
@@ -2734,7 +3015,7 @@
     }
     .client2-paragraph {
     padding-left: 38px;
-    font-size: 17px;
+    font-size: 16px;
     padding-top: 26px;
     }
     .contact {
@@ -2744,7 +3025,7 @@
     height: auto;
     }
     .contact-back-text {
-    font-size: 90px; 
+    font-size: 70px; 
     }
     .gat-touch {
     font-size: 40px;
@@ -2770,21 +3051,21 @@
     padding-top: 30px;
     }
     .my-social-icon {
-    width: 28%;
+    width: 30%;
     }
     .first-soci{
-    width: 40px;
+    width: 10%;
     padding-top: 9px;
-    font-size: 30px;
+    font-size: 25px;
     }
     .second-soci{
-    width: 40px;
+    width: 10%;
     padding-top: 9px;
-    font-size: 30px;
+    font-size: 25px;
     }
     .thired-soci{
-    width: 45px;
-    font-size: 30px;
+    width: 10px;
+    font-size: 20px;
     margin-top: 0px;
     margin-left: 0px;
     }
@@ -2819,6 +3100,68 @@
     margin-top: 0px;
     margin-left: 0px;
     }
+    }
+
+    @media screen and (min-width:1021px) and (max-width:1100px){
+                 .client-last-container{
+                width: 95%;
+            }
+            .client-box1 {
+                width: 47%;
+                margin-left: 10px;
+                }
+                .client-image-text {
+                font-size: 17px;
+                }
+                .client-village {
+                font-size: 17px;
+                padding-left: 110px;
+                }
+                .client-paragraph {
+                padding-left: 38px;
+                font-size: 15px;
+                padding-top: 26px;
+                }
+                .client-box2 {
+                width: 47%;
+                margin-left: 40px;
+                }
+                .client2-village {
+                font-size: 18px;
+                padding-left: 110px;
+                }
+                .client2-paragraph {
+                padding-left: 38px;
+                font-size: 15px;
+                padding-top: 26px;
+                }
+                .my-social-icon {
+                    width: 31%;
+                    }
+                    .first-soci{
+                    width: 40px;
+                    padding-top: 9px;
+                    font-size: 20px;
+                    }
+                    .second-soci{
+                    width: 40px;
+                    padding-top: 9px;
+                    font-size: 20px;
+                    }
+                    .thired-soci{
+                    width: 40px;
+                    font-size: 20px;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    }
+                    .my-button2 {
+                        width: 20%;
+                        margin-top: 80px;
+                        margin-right: 40px;
+                        font-size: 16px;
+                        margin-left: 40%;        
+                        }
+
     }
     @media screen and (min-width:1100px) and (max-width:1102px){
     .projects{
@@ -2907,21 +3250,56 @@
     height: 100vh;
     position: relative;
     }
-    .social3 {
-    width: 35px;
-    height: 42px;
-    float: left;
-    margin-left: 0px;
-    color: rgba(250, 250, 250, 0.9);
-    padding-top: 0px;
-    font-size: 18px;
-    /*border: solid 1px rgba(255, 255, 255, 0.3);*/
-    }
-    .services-main-heading {
+     .services-main-heading {
     text-align: center;
     margin-top: 70px;
     font-size: 60px;
     }
+    .about {
+        width: 80%;
+        height: 70vh;
+        }
+
+        .main-heading {
+            font-size: 70px;
+            }
+            .what {
+            font-size: 35px;
+            margin-top: -89px;
+            }
+
+            .white-text-box1 {
+                margin-top: 30px;
+                }
+                .white-text-box1 h1 {
+                font-size: 23px;
+                }
+               
+                .white-text-box1 p {
+                font-size: 16px;
+                line-height: 1.5;
+                }
+                .col-inf-right {
+                    margin-top: 20px;
+                    }
+
+                .my-name {
+                    font-size: 16px;
+                    }
+                    .my-email {
+                    font-size: 16px;
+                    }
+                    .my-age {
+                    font-size: 16px;
+                    }
+                    .from {
+                    font-size: 16px;
+                    }
+                    .about-button {
+                    width: 41%;
+                    height: 46px;
+                    margin-left: 38px;
+                    }
     .what {
     font-size: 35px;
     text-align: center;
@@ -2960,10 +3338,10 @@
     margin-top: -80px;
     }
     .projects{
-    height: 180vh;
+    height: 195vh;
     }
     .all {
-    width: 100%;
+    width: 80%;
     height: auto;
     display: flex;             
     justify-content: space-around;
@@ -2972,30 +3350,33 @@
     }
     .image1 {
     width: 45%;
-    height: 420px;
+    height: 310px;
     margin-left: 20px;  
     }
     .image2 {
     width: 45%;
-    height: 420px;
+    height: 310px;
     }
     .image3 {
     width: 45%;
-    height: 420px;
+    height: 310px;
     margin-top: 20px;
     }
     .image4 {
     width: 45%;
-    height: 420px;
+    height: 310px;
     }
     .image5 {
     width: 45%;
-    height: 420px;
+    height: 310px;
     }
     .image6 {
     width: 45%;
-    height: 420px;
+    height: 310px;
     }    
+    .Testimonial {
+        height: 90vh;
+        }
     .testimonial-heading {
     font-size: 72px;
     text-align: center;
@@ -3010,11 +3391,11 @@
     }
     .client-box1 {
     width: 48%;
-    height: 295px;
+    height: 250px;
     }
     .client-box2 {
     width: 48%;
-    height: 295px;
+    height: 250px;
     margin-left: 20px;
     }
     .contact {
@@ -3023,11 +3404,11 @@
     }
     .contact-back-text {
     opacity: 0.1;
-    font-size: 90px; 
+    font-size: 70px; 
     }
     .gat-touch {
     font-size: 42px;
-    margin-top: -19%;
+    margin-top: -15%;
     }
     .cont-last-container {
     width: 80%;
