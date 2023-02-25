@@ -944,7 +944,7 @@
     margin-top: 20px;
     position: relative;
     /* border: 2px solid red; */
-    background-image: url(images/flat.png);
+    background-image: url(images/am.png);
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
@@ -3102,6 +3102,8 @@
     }
     }
 
+   
+
     @media screen and (min-width:1021px) and (max-width:1100px){
                  .client-last-container{
                 width: 95%;
@@ -3163,6 +3165,59 @@
                         }
 
     }
+
+    @media screen and (min-width:1000px) and (max-width:1080px){
+        .all {
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 25px;
+            }
+            .image1 {
+            width: 46%;
+            height: 320px;
+            }
+            .image2 {
+            width: 46%;
+            height: 320px;
+            }
+            .image3 {
+            width: 46%;
+            height: 320px;
+            margin-left: 0;
+            margin-top: 25px;
+            }
+            .image4 {
+            width: 46%;
+            height: 320px;
+            margin-top: 25px;
+            }
+            .image5 {
+            width: 46%;
+            height: 320px;
+            margin-top: 25px;
+            margin-left: 0;
+            }
+            .image6 {
+            width: 46%;
+            height: 320px;
+            margin-top: 25px;
+            margin-left: 0;
+            }
+
+    }
+
+
+
+
+
+
+
+
+
+
     @media screen and (min-width:1100px) and (max-width:1102px){
     .projects{
     height: 130vh;
@@ -3225,6 +3280,8 @@
     margin-left: 3px;
     }
     }
+
+      
     @media screen and (min-width:1100px) and (max-width:1500px){
     .menu {
     font-size: 18px;
@@ -3338,7 +3395,7 @@
     margin-top: -80px;
     }
     .projects{
-    height: 195vh;
+    height: 222vh;
     }
     .all {
     width: 80%;
@@ -3350,29 +3407,36 @@
     }
     .image1 {
     width: 45%;
-    height: 310px;
+    height: 370px;
     margin-left: 20px;  
     }
     .image2 {
     width: 45%;
-    height: 310px;
+    height: 370px;
     }
     .image3 {
     width: 45%;
-    height: 310px;
+    height: 370px;
     margin-top: 20px;
+    margin-left: 20px;
     }
     .image4 {
     width: 45%;
-    height: 310px;
+    height: 370px;
+    margin-left: 20px;
     }
     .image5 {
     width: 45%;
-    height: 310px;
+    height: 370px;
+    background-image: url(images/am.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
     .image6 {
     width: 45%;
-    height: 310px;
+    height: 370px;
+    
     }    
     .Testimonial {
         height: 90vh;
@@ -3398,7 +3462,7 @@
     height: 250px;
     margin-left: 20px;
     }
-    .contact {
+    .contact { 
     width: 80%;
     height: auto;
     }
@@ -3464,3 +3528,26 @@
     padding-top: 16px;
     }
     }
+
+    @media screen and (min-width:1101px) and (max-width:1183px){
+        .social_icon2 {
+            width: 70%;
+            }
+            .social {
+                width: 35px;
+                height: 42px;
+                float: left;
+                }
+                .social2 {
+                width: 35px;
+                height: 42px;
+                float: left;
+                margin-left: 3px;
+                }
+                .social3 {
+                width: 35px;
+                height: 42px;
+                float: left;
+                margin-left: 3px;
+                }   
+           }
